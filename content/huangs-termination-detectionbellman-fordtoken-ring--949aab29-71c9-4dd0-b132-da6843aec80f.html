@@ -1764,7 +1764,7 @@ div.Section1
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;}
 </style>
-<![endif]--><!--StartFragment--><!--EndFragment-->&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>Idea behind the huang's termination detection algorithm</strong></p><p class="" align="center" style="">
+<![endif]--><!--StartFragment--><!--EndFragment-->&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>Idea behind the huang's termination detection algorithm<sup></sup></strong></p><p class="" align="center" style="">
 
 </p><b></b><ul><li><!--[if !supportLists]--><!--[endif]-->The algorithm was proposed by&nbsp;<a href="http://en.wikipedia.org/w/index.php?title=Shing-Tsaan_Huang&amp;action=edit&amp;redlink=1" title="">Shing-Tsaan Huang</a>&nbsp;in&nbsp;<a href="http://en.wikipedia.org/wiki/1989" title="">1989</a>&nbsp;in the&nbsp;<a href="http://en.wikipedia.org/w/index.php?title=Journal_of_Computers&amp;action=edit&amp;redlink=1" title=""><i>Journal of Computers</i></a>.<o:p></o:p></li><li><!--[if !supportLists]--><!--[endif]-->One of the earliest termination detection algorithms,
 which was proposed by Dijkstra and Scholten [2], <b>assumes that the underlying computation is diffusing(</b>starts from a
@@ -1906,11 +1906,7 @@ enter the critical section if it holds the token.The competing nodes generate a
 token for the permission to
 enter CS. The token traverses the logical ring structure. A node can enter CS
 if and only if it receives back its generated token. In average N/ 2 messages
-are required to handle one request in a N node system.<o:p></o:p></li></ul><p class="" align="center" style=""><strong>Idea behind token &nbsp;ring algorithm &nbsp;&nbsp;</strong><o:p></o:p>
-
-&nbsp;
-
-</p><ul><li><!--[if !supportLists]--><!--[endif]-->To ensure Mutual exclusion, we
+are required to handle one request in a N node system.<o:p></o:p></li></ul><p class="" align="center" style=""><strong>Idea behind token ring algorithm</strong></p><ul><li><!--[if !supportLists]--><!--[endif]-->To ensure Mutual exclusion, we
 have to ensure that no two processes accesses the critical section at the same
 time. So by using one token we can ensure that the process having the token can
 enter the critical section and other processes have to wait till they get the

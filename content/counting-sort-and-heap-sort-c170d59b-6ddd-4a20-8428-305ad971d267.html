@@ -3271,8 +3271,8 @@ binary tree.<o:p></o:p></p><h1 style="">
 
 &nbsp;
 
-</h1><h2><b>Other reasons behind the discovery of
-Heap Sort:</b><o:p></o:p></h2><ul><li>
+</h1><h2><b><u>Other reasons behind the discovery of
+Heap Sort</u>:</b><o:p></o:p></h2><ul><li>
 
  
 
@@ -3281,14 +3281,10 @@ applications, in a max heap, the largest value can easily be removed from the
 top of the heap and in the ensuing siftDown() a free “slot” is made available
 at what was the end of the heap. The removed value could then be stored in the
 vacated slot.If we repeat this process until the heap shrank to size 1, we will
-have a sorted array.<br style="">
-<!--[if !supportLineBreakNewLine]--><br style="">
-<!--[endif]--><o:p></o:p></li><li><!--[if !supportLists]--><!--[endif]-->There was a greater need of a sorting algorithm that sorts
+have a sorted array.<br style=""><!--[if !supportLineBreakNewLine]--><br style=""><!--[endif]--><o:p></o:p></li><li><!--[if !supportLists]--><!--[endif]-->There was a greater need of a sorting algorithm that sorts
 in the same space constraints and gives good complexity value. So, on the
 similar lines of quick sort, developers would have thought of developing an
-algorithm which sorts n elements in the same array only.<br>
-<!--[if !supportLineBreakNewLine]--><br>
-<!--[endif]--><o:p></o:p></li><li><!--[if !supportLists]--><!--[endif]-->The evolution could have been resulted because of a need
+algorithm which sorts n elements in the same array only.<br><!--[if !supportLineBreakNewLine]--><br><!--[endif]--><o:p></o:p></li><li><!--[if !supportLists]--><!--[endif]-->The evolution could have been resulted because of a need
 to obtain the max and the min element in the given dataset in one pass without
 and extra variables, etc.<o:p></o:p></li></ul><h1 style="">
 
@@ -3856,7 +3852,7 @@ ul
 	mso-hansi-font-family:Calibri;
 	mso-hansi-theme-font:minor-latin;}
 </style>
-<![endif]--><!--StartFragment--></b></p><p class=""><b>
+<![endif]--><!--StartFragment--></b></p><h2><b>
 
 
 
@@ -3866,8 +3862,8 @@ ul
 
 
 
-Description
-of Heap Sort:<!--EndFragment--></b><o:p></o:p></p><h1 style="">
+</b><br></h2><h2><b><u>Description
+of Heap Sort</u>:<!--EndFragment--></b><o:p></o:p></h2><h1 style="">
 
 </h1><p class=""><b>Heapsort
 </b>is
@@ -3938,8 +3934,8 @@ Complexity:</b><o:p></o:p></p><h1 style="">
 
 &nbsp;
 
-</h1><p class=""><b>Basics
-of Heap:</b><o:p></o:p></p><h1 style="">
+</h1><h2><b><u>Basics
+of Heap:</u></b><o:p></o:p></h2><h1 style="">
 
 </h1><p class="">A heap is a way to implement a priority
 queue.<o:p></o:p></p><h1 style="">
@@ -5047,450 +5043,7 @@ ul
 	mso-hansi-font-family:Calibri;
 	mso-hansi-theme-font:minor-latin;}
 </style>
-<![endif]--><!--StartFragment--></h1><p class=""><b>HEAP SORT</b><o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class=""><b>The basic idea behind the development of Heap Sort:</b><o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><ul><li><!--[if !supportLists]--><!--[endif]-->Before the development
-of heap sort, many other sorting algorithms had already been developed and even
-the concept of tree had already been formalized. <o:p></o:p></li></ul><h1 style="">
-
-&nbsp;
-
-</h1><ul><li><!--[if !supportLists]--><!--[endif]-->Now there was a need to
-develop an algorithm that sorts the element in lesser space requirement and
-gives the absolute max and min element. <o:p></o:p></li></ul><h1 style="">
-
-&nbsp;
-
-</h1><ul><li><!--[if !supportLists]--><!--[endif]-->Since binary tree has
-already been coined, so it was known that in order to consider sorting in one
-branch of the tree, it takes O(n log n) time. <o:p></o:p></li></ul><h1 style="">
-
-&nbsp;
-
-</h1><ul><li><!--[if !supportLists]--><!--[endif]-->So the author might
-have thought of developing an algorithm that takes best of the two&nbsp; - merge sort() and insertion sort(). There
-should have been an algorithm that sorts in place like insertion sort and that
-too in O(n logn) time like merge sort.<o:p></o:p></li></ul><h1 style="">
-
-&nbsp;
-
-</h1><ul><li><!--[if !supportLists]--><!--[endif]-->Also, we knew that
-index are defined in array and there is a sequential access to elements while
-link list allows more than one element to be linked to a single element. Thus,
-if both these attributes of different data structures are combined together,
-then there would be a better and faster access to elements.<o:p></o:p></li></ul><h1 style="">
-
-&nbsp;
-
-</h1><p class=""><b>Stepwise derivation of the algorithm:</b><o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">Taking an example
-wherein the complexity increases step by step:<o:p></o:p></p><h1 style="">
-
-</h1><p class="">1. n=1<o:p></o:p></p><h1 style="">
-
-</h1><p class="">the array is 10<o:p></o:p></p><h1 style="">
-
-</h1><p class="">so, 10 is the only
-element placed in the array.<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">2. n=2<o:p></o:p></p><h1 style="">
-
-</h1><p class="">The array is 10, 4<o:p></o:p></p><h1 style="">
-
-</h1><p class="">So, on comparing
-4&lt;10, so ar[1] = 10 and ar[2] = 4.<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">3. n=3<o:p></o:p></p><h1 style="">
-
-</h1><p class="">The array is 10, 4, 8<o:p></o:p></p><h1 style="">
-
-</h1><p class="">now we have to compare
-8 with 10 or 4, here since we are heading towards a space efficient algorithm,
-hence thinking on the lines of binary tree implementation, we compare 8, placed
-at array index 3 with (index/2) element.<o:p></o:p></p><h1 style="">
-
-</h1><p class="">index = 3<o:p></o:p></p><h1 style="">
-
-</h1><p class="">index/2 = 1.5 =&gt;
-ar[1] = 10<o:p></o:p></p><h1 style="">
-
-</h1><p class="">So, on comparing 8 with
-10, since 8&lt;10 so, ar[3] = 8<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">4. n=4<o:p></o:p></p><h1 style="">
-
-</h1><p class="">The array is 10, 4, 8,
-5<o:p></o:p></p><h1 style="">
-
-</h1><p class="">Now arr[4] = 5. So, 4/2
-= 2 =&gt; ar[2] = 4.<o:p></o:p></p><h1 style="">
-
-</h1><p class="">So, on comparing 5 with
-4, we see that 5&gt;4 so we swap them. now the array is as follows:<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[1] = 10<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[2] = 5<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[3] = 8<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[4] = 4<o:p></o:p></p><h1 style="">
-
-</h1><p class="">Now again 2/2=1 =&gt;
-ar[1] = 10, comparing 5 with 10 we see 5&lt;10 so no swapping.<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">5. n=5<o:p></o:p></p><h1 style="">
-
-</h1><p class="">The array is 10, 5, 8,
-4, 12<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[5] = 12<o:p></o:p></p><h1 style="">
-
-</h1><p class="">5/2=2.5 =&gt; ar[2] = 5<o:p></o:p></p><h1 style="">
-
-</h1><p class="">now 5&lt;12, hence
-swapping them we get ar[2] = 12 and ar[5] = 5.<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">Again comparing ar[2]
-with 2/2=1 =&gt; ar[1]=10. Now since 10&lt;12, we again swap them, so the array
-elements now are as follows:<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[1] = 12 <o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[2] = 10<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[3] = 8<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[4] = 4<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[5] = 5<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">6. n=6 <o:p></o:p></p><h1 style="">
-
-</h1><p class="">Now array is 10, 4, 8,
-5, 12, 2. Here ar[6] = 2, 6/2=3 =&gt; ar[3] =8.<o:p></o:p></p><h1 style="">
-
-</h1><p class="">On comparing 8 with 2,
-we see that 2&lt;8, which is true and hence no swapping required.<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">7.&nbsp; n =7<o:p></o:p></p><h1 style="">
-
-</h1><p class="">Now array is 10, 4, 8,
-5, 12, 2, 6. Now 6 is ar[7], i.e. 7/2=3.5 =&gt;ar[3] =8. so, comparing 6 with 8
-6&lt;8..so here also no swapping involved.<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">8. n = 8<o:p></o:p></p><h1 style="">
-
-</h1><p class="">Now the array is
-10,4,8,5,12,2,6,11. Now ar[8] =11=&gt; 8/2=4 =&gt; ar[4] =4. Now we know that
-4&lt;11, hence swapping the two we get ar[8] = 4 and ar[4]=11. Now again
-comparing 4/2 = 2 =&gt; ar[2] = 10, now 10&lt; 11 hence again swapping the two
-we get ar[2] = 11 and ar[4] = 10.<o:p></o:p></p><h1 style="">
-
-</h1><p class="">So now the final array
-list is as follows:<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[1] = 12<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[2] = 11<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[3] = 8<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[4] = 10<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[5] = 5<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[6] = 2<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[7] = 6<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[8] = 4<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">Hence on proceeding
-further, we see that we only need to check the incoming element and compare it
-with the element placed at <b>index/2</b>
-position.<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">After this , the author
-would have thought was extracting the max or the min element so as to sort this
-structure obtained. he fetched out 12 from the above obtained array. So, now
-the array gets rearranged as follows:<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">ar[1] = 11<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[2] = 8<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[3] = 10<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[4] = 5<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[5] = 2<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[6] = 6<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[7] = 4<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">Now again comparing and
-checking that the conditions are satisfied or not.<o:p></o:p></p><h1 style="">
-
-</h1><p class="">2/2=1 =&gt;
-ar[1]=11&gt;8-------true<o:p></o:p></p><h1 style="">
-
-</h1><p class="">3/2=1 =&gt;
-ar[1]=11&gt;10------true<o:p></o:p></p><h1 style="">
-
-</h1><p class="">4/2=2 =&gt;
-ar[2]=8&gt;5---------true<o:p></o:p></p><h1 style="">
-
-</h1><p class="">5/2=2 =&gt;
-ar[2]=8&gt;2---------true<o:p></o:p></p><h1 style="">
-
-</h1><p class="">6/2=3 =&gt;
-ar[3]=10&gt;6--------true<o:p></o:p></p><h1 style="">
-
-</h1><p class="">7/2=3 =&gt;
-ar[3]=10&gt;4--------true<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">so, the condition is
-satisfied, now again fetching out the largest element that is 11.<o:p></o:p></p><h1 style="">
-
-</h1><p class="">So the array now is:<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[1] = 8<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[2] = 10<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[3] = 5<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[4] = 2<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[5] = 6<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[6] = 4<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">checking the condition<o:p></o:p></p><h1 style="">
-
-</h1><p class="">2/2=1 =&gt;
-ar[1]=8&lt;10-------false, hence swapping the two<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[1] = 10<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[2] = 8<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[3] = 5<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[4] = 2<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[5] = 6<o:p></o:p></p><h1 style="">
-
-</h1><p class="">ar[6] = 4<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">now checking after
-rearrangement,<o:p></o:p></p><h1 style="">
-
-</h1><p class="">2/2=1 =&gt;
-ar[1]=10&gt;8-------true<o:p></o:p></p><h1 style="">
-
-</h1><p class="">3/2=1 =&gt;
-ar[1]=10&gt;5------true<o:p></o:p></p><h1 style="">
-
-</h1><p class="">4/2=2 =&gt;
-ar[2]=8&gt;2---------true<o:p></o:p></p><h1 style="">
-
-</h1><p class="">5/2=2 =&gt;
-ar[2]=8&gt;6---------true<o:p></o:p></p><h1 style="">
-
-</h1><p class="">6/2=3 =&gt;
-ar[3]=5&gt;4--------true<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">hence, proceeding this
-way, everytime we extract the max element out<o:p></o:p></p><h1 style="">
-
-</h1><p class="">12-&gt;11-&gt;10-&gt;8-&gt;6-&gt;5-&gt;4-&gt;2<o:p></o:p></p><h1 style="">
-
-</h1><p class="">Hence we get the sorted
-array.<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class="">Now this comparison
-done would have been given a name, that is heap, wherein the root element is
-either greater than or less than the two children nodes. Heap is nothing but a
-data structure&nbsp; that is a special type of
-binary tree.<o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><p class=""><b>Other reasons behind the discovery of
-Heap Sort:</b><o:p></o:p></p><h1 style="">
-
-&nbsp;
-
-</h1><ul><li><!--[if !supportLists]--><!--[endif]-->Thinking on the lines of already available algorithms and
-applications, in a max heap, the largest value can easily be removed from the
-top of the heap and in the ensuing siftDown() a free “slot” is made available
-at what was the end of the heap. The removed value could then be stored in the
-vacated slot.If we repeat this process until the heap shrank to size 1, we will
-have a sorted array.<br><!--[if !supportLineBreakNewLine]--><br><!--[endif]--><o:p></o:p></li><li><!--[if !supportLists]--><!--[endif]-->There was a greater need of a sorting algorithm that sorts
-in the same space constraints and gives good complexity value. So, on the
-similar lines of quick sort, developers would have thought of developing an
-algorithm which sorts n elements in the same array only.<br><!--[if !supportLineBreakNewLine]--><br><!--[endif]--><o:p></o:p></li><li><!--[if !supportLists]--><!--[endif]-->The evolution could have been resulted because of a need
-to obtain the max and the min element in the given dataset in one pass without
-and extra variables, etc.<o:p></o:p></li></ul><h1 style="">
-
-
-
-
-
-&nbsp;
-
-</h1><p class=""><b>Description
-of Heap Sort:</b><o:p></o:p></p><h1 style="">
-
-</h1><p class=""><b>Heapsort
-</b>is
-a comparison-based sorting algorithm. Heapsort is part of the selection sort
-family; it improves on the basic selection sort by using a logarithmic-time
-priority queue rather than a linear-time search. Although somewhat slower in
-practice on most machines than a well-implemented<a href="http://en.wikipedia.org/wiki/Quicksort" title=""> quicksort</a>, it has the advantage of a more
-favorable worst-case<a href="http://en.wikipedia.org/wiki/Big_O_notation" title=""> O</a>(<i>n </i>log<i>n</i>) runtime. Heapsort is an<a href="http://en.wikipedia.org/wiki/In-place_algorithm" title=""> in-place algorithm</a>, but it is not a<a href="http://en.wikipedia.org/wiki/Stable_sort" title=""> stable sort</a>.<o:p></o:p></p><h1 style="">
-
-</h1><p class="">Heapsort can be performed in place. The
-array can be split into two parts, the sorted array and the heap. The storage
-of heaps as arrays is diagrammed here. The heap's invariant is preserved after
-each extraction, so the only cost is that of extraction.<o:p></o:p></p><h1 style="">
-
-</h1><p class=""><b>Time
-Complexity:</b><o:p></o:p></p><h1 style="">
-
-</h1><table class="" border="1" cellspacing="0" cellpadding="0" width="624">
- <tbody><tr>
-  <td width="312" valign="top">
-  <p class=""><b><u>Labels</u></b><o:p></o:p></p>
-  </td>
-  <td width="312" valign="top">
-  <p class=""><b><u>Complexity</u></b><o:p></o:p></p>
-  </td>
- </tr>
- <tr>
-  <td width="312" valign="top">
-  <p class="">Worst
-  case performance<o:p></o:p></p>
-  </td>
-  <td width="312" valign="top">
-  <p class="">O(n
-  log n)<o:p></o:p></p>
-  </td>
- </tr>
- <tr>
-  <td width="312" valign="top">
-  <p class="">Best
-  case performance<o:p></o:p></p>
-  </td>
-  <td width="312" valign="top">
-  <p class="">O(n
-  log n)<o:p></o:p></p>
-  </td>
- </tr>
- <tr>
-  <td width="312" valign="top">
-  <p class="">Average
-  case performance<o:p></o:p></p>
-  </td>
-  <td width="312" valign="top">
-  <p class="">O(n
-  log n)<o:p></o:p></p>
-  </td>
- </tr>
- <tr>
-  <td width="312" valign="top">
-  <p class="">Worst
-  Case Space Complexity<o:p></o:p></p>
-  </td>
-  <td width="312" valign="top">
-  <p class="">O(1)
-  ^auxillary<o:p></o:p></p>
-  </td>
- </tr>
-</tbody></table><h1 style="">
-
-&nbsp;
-
-</h1><p class=""><b>Basics
-of Heap:</b><o:p></o:p></p><h1 style="">
-
-</h1><p class="">A heap is a way to implement a priority
-queue.<o:p></o:p></p><h1 style="">
-
-</h1><p class="">The property of a priority queue is: <o:p></o:p></p><h1 style="">
-
-</h1><ul><li><!--[if !supportLists]--><!--[endif]-->when you get an item it is the one with the highest
-priority<o:p></o:p></li></ul><h1 style="">
-
-</h1><p class="">Heaps have same complexity as a balanced
-search tree but:<o:p></o:p></p><h1 style="">
-
-</h1><ul><li><!--[if !supportLists]--><!--[endif]-->they can easily be kept in an array<o:p></o:p></li><li><!--[if !supportLists]--><!--[endif]-->they are much simpler than a balanced search tree<o:p></o:p></li><li><!--[if !supportLists]--><!--[endif]-->they are cheaper to run in practice<o:p></o:p></li></ul><h1 style="">
-
-
-
-
-
-</h1><p class="">1. A heap is a binary tree that has
-special structure compared to a general binary tree:<o:p></o:p></p><h1 style="">
-
-</h1><ul><li><!--[if !supportLists]--><!--[endif]-->The root is greater than any value in a subtree.<o:p></o:p></li><li><!--[if !supportLists]--><!--[endif]-->this means the highest priority is at the root.<o:p></o:p></li><li><!--[if !supportLists]--><!--[endif]-->this is less information than a BST and this is why it can
-be easier and &nbsp; faster<o:p></o:p></li></ul><h1 style="">
-
-
-
-
-
-</h1><p class="">2. It is a complete tree<o:p></o:p></p><h1 style="">
-
-</h1><ul><li><!--[if !supportLists]--><!--[endif]-->the height is always log(n) so all operations are
-O(log(n)).<o:p></o:p></li></ul><h1 style="">
+<![endif]--><!--StartFragment--></h1><p class="" style=""><b></b><o:p></o:p><br style=""></p><h1 style="">
 
 &nbsp;
 

@@ -2992,21 +2992,56 @@ then there would be a better and faster access to elements.<o:p></o:p></li></ul>
 
 &nbsp;
 
-</h1><h2><b><u>Stepwise derivation of the algorithm:</u></b><o:p></o:p></h2><p>
+</h1><h2><b><u>Stepwise derivation of the algorithm:</u></b><o:p></o:p></h2><p style="">
 
  
 
 Taking an example
-wherein the complexity increases step by step:<o:p></o:p></p><h1 style="">
+wherein the complexity increases step by step:<o:p></o:p><br style=""></p><p>
 
-</h1><ol><li style="">
 
-=1<br style=""><!--StartFragment--><p class="">&nbsp;The array is 10<o:p></o:p></p><h1></h1><p class=""><span>&nbsp;&nbsp;<span class="Apple-converted-space">&nbsp;</span></span>o, 10 is the only element placed in the array.</p><!--EndFragment--><!--StartFragment--><br style=""></li><li>n=
-<!--StartFragment--><p class="" style="">The array is 10, 4<o:p></o:p></p><h1></h1><p class="">So, on comparing 4&lt;10, so ar[1] = 10 and ar[2] = 4.
 
-</p><p class=""><!--EndFragment-->
 
-</p><!--EndFragment--></li><li style=""><!--EndFragment--><!--StartFragment--><p class="">n=3<o:p></o:p></p><h1></h1><p class="">The array is 10, 4, 8<o:p></o:p></p><h1></h1><p class="">now we have to compare 8 with 10 or 4, here since we are heading towards a space efficient algorithm, hence thinking on the lines of binary tree implementation, we compare 8, placed at array index 3 with (index/2) element.<o:p></o:p></p><h1></h1><p class="">index = 3<o:p></o:p></p><h1></h1><p class="">index/2 = 1.5 =&gt; ar[1] = 10<o:p></o:p></p><h1></h1><p class="">So, on comparing 8 with 10, since 8&lt;10 so, ar[3] = 8</p><!--EndFragment--><br style=""></li><li style=""><!--StartFragment--><p class="">n=4<o:p></o:p></p><h1></h1><p class="">The array is 10, 4, 8, 5<o:p></o:p></p><h1></h1><p class="">Now arr[4] = 5. So, 4/2 = 2 =&gt; ar[2] = 4.<o:p></o:p></p><h1></h1><p class="">So, on comparing 5 with 4, we see that 5&gt;4 so we swap them. now the array is as follows:<o:p></o:p></p><h1></h1><p class="">ar[1] = 10<o:p></o:p></p><h1></h1><p class="">ar[2] = 5<o:p></o:p></p><h1></h1><p class="">ar[3] = 8<o:p></o:p></p><h1></h1><p class="">ar[4] = 4<o:p></o:p></p><h1></h1><p class="">Now again 2/2=1 =&gt; ar[1] = 10, comparing 5 with 10 we see 5&lt;10 so no swapping.</p><!--EndFragment--><!--StartFragment--><p class="" style=""><br></p><p class="" style=""><br></p><p class="" style="">4. n=4<o:p></o:p></p></li></ol><h1 style="">
+
+&nbsp;1. n=1<o:p></o:p></p><h1 style="">
+
+</h1><p class="">The array is 10<o:p></o:p></p><h1 style="">
+
+</h1><p class="">So, 10 is the only
+element placed in the array.<o:p></o:p></p><h1 style="">
+
+&nbsp;
+
+</h1><p class="">2. n=2<o:p></o:p></p><h1 style="">
+
+</h1><p class="">The array is 10, 4<o:p></o:p></p><h1 style="">
+
+</h1><p class="">So, on comparing
+4&lt;10, so ar[1] = 10 and ar[2] = 4.<o:p></o:p></p><h1 style="">
+
+&nbsp;
+
+</h1><p class="">3. n=3<o:p></o:p></p><h1 style="">
+
+</h1><p class="">The array is 10, 4, 8<o:p></o:p></p><h1 style="">
+
+</h1><p class="">Now we have to compare
+8 with 10 or 4, here since we are heading towards a space efficient algorithm,
+hence &nbsp;&nbsp;&nbsp;thinking on the lines of binary
+tree implementation, we compare 8, placed at array index 3 with (index/2)
+element.<o:p></o:p></p><h1 style="">
+
+</h1><p class="">index = 3<o:p></o:p></p><h1 style="">
+
+</h1><p class="">index/2 = 1.5 =&gt;
+ar[1] = 10<o:p></o:p></p><h1 style="">
+
+</h1><p class="">So, on comparing 8 with
+10, since 8&lt;10 so, ar[3] = 8<o:p></o:p></p><h1 style="">
+
+&nbsp;
+
+</h1><p class="">4. n=4<o:p></o:p></p><h1 style="">
 
 </h1><p class="">The array is 10, 4, 8,
 5<o:p></o:p></p><h1 style="">
@@ -3236,20 +3271,24 @@ binary tree.<o:p></o:p></p><h1 style="">
 
 &nbsp;
 
-</h1><p class=""><b>Other reasons behind the discovery of
-Heap Sort:</b><o:p></o:p></p><h1 style="">
+</h1><h2><b>Other reasons behind the discovery of
+Heap Sort:</b><o:p></o:p></h2><ul><li>
 
-&nbsp;
+ 
 
-</h1><ul><li><!--[if !supportLists]--><!--[endif]-->Thinking on the lines of already available algorithms and
+Thinking on the lines of already available algorithms and
 applications, in a max heap, the largest value can easily be removed from the
 top of the heap and in the ensuing siftDown() a free “slot” is made available
 at what was the end of the heap. The removed value could then be stored in the
 vacated slot.If we repeat this process until the heap shrank to size 1, we will
-have a sorted array.<br><!--[if !supportLineBreakNewLine]--><br><!--[endif]--><o:p></o:p></li><li><!--[if !supportLists]--><!--[endif]-->There was a greater need of a sorting algorithm that sorts
+have a sorted array.<br style="">
+<!--[if !supportLineBreakNewLine]--><br style="">
+<!--[endif]--><o:p></o:p></li><li><!--[if !supportLists]--><!--[endif]-->There was a greater need of a sorting algorithm that sorts
 in the same space constraints and gives good complexity value. So, on the
 similar lines of quick sort, developers would have thought of developing an
-algorithm which sorts n elements in the same array only.<br><!--[if !supportLineBreakNewLine]--><br><!--[endif]--><o:p></o:p></li><li><!--[if !supportLists]--><!--[endif]-->The evolution could have been resulted because of a need
+algorithm which sorts n elements in the same array only.<br>
+<!--[if !supportLineBreakNewLine]--><br>
+<!--[endif]--><o:p></o:p></li><li><!--[if !supportLists]--><!--[endif]-->The evolution could have been resulted because of a need
 to obtain the max and the min element in the given dataset in one pass without
 and extra variables, etc.<o:p></o:p></li></ul><h1 style="">
 
@@ -3257,10 +3296,578 @@ and extra variables, etc.<o:p></o:p></li></ul><h1 style="">
 
 
 
-&nbsp;
 
-</h1><p class=""><b>Description
-of Heap Sort:</b><o:p></o:p></p><h1 style="">
+
+
+
+
+
+<!--EndFragment--></h1><p class=""><b>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="ProgId" content="Word.Document">
+<meta name="Generator" content="Microsoft Word 14">
+<meta name="Originator" content="Microsoft Word 14">
+<link rel="File-List" href="file:///C:\Users\CHIRAG~1\AppData\Local\Temp\msohtmlclip1\01\clip_filelist.xml">
+
+<!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG></o:AllowPNG>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><link rel="themeData" href="file:///C:\Users\CHIRAG~1\AppData\Local\Temp\msohtmlclip1\01\clip_themedata.thmx">
+<link rel="colorSchemeMapping" href="file:///C:\Users\CHIRAG~1\AppData\Local\Temp\msohtmlclip1\01\clip_colorschememapping.xml">
+
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves></w:TrackMoves>
+  <w:TrackFormatting></w:TrackFormatting>
+  <w:PunctuationKerning></w:PunctuationKerning>
+  <w:ValidateAgainstSchemas></w:ValidateAgainstSchemas>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF></w:DoNotPromoteQF>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables></w:BreakWrappedTables>
+   <w:SnapToGridInCell></w:SnapToGridInCell>
+   <w:WrapTextWithPunct></w:WrapTextWithPunct>
+   <w:UseAsianBreakRules></w:UseAsianBreakRules>
+   <w:DontGrowAutofit></w:DontGrowAutofit>
+   <w:SplitPgBreakAndParaMark></w:SplitPgBreakAndParaMark>
+   <w:EnableOpenTypeKerning></w:EnableOpenTypeKerning>
+   <w:DontFlipMirrorIndents></w:DontFlipMirrorIndents>
+   <w:OverrideTableStyleHps></w:OverrideTableStyleHps>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"></m:mathFont>
+   <m:brkBin m:val="before"></m:brkBin>
+   <m:brkBinSub m:val="&#45;-"></m:brkBinSub>
+   <m:smallFrac m:val="off"></m:smallFrac>
+   <m:dispDef></m:dispDef>
+   <m:lMargin m:val="0"></m:lMargin>
+   <m:rMargin m:val="0"></m:rMargin>
+   <m:defJc m:val="centerGroup"></m:defJc>
+   <m:wrapIndent m:val="1440"></m:wrapIndent>
+   <m:intLim m:val="subSup"></m:intLim>
+   <m:naryLim m:val="undOvr"></m:naryLim>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"></w:LsdException>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"></w:LsdException>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"></w:LsdException>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"></w:LsdException>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"></w:LsdException>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"></w:LsdException>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"></w:LsdException>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"></w:LsdException>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"></w:LsdException>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"></w:LsdException>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"></w:LsdException>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"></w:LsdException>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"></w:LsdException>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"></w:LsdException>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"></w:LsdException>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"></w:LsdException>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"></w:LsdException>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"></w:LsdException>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"></w:LsdException>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"></w:LsdException>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"></w:LsdException>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"></w:LsdException>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"></w:LsdException>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"></w:LsdException>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"></w:LsdException>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"></w:LsdException>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"></w:LsdException>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"></w:LsdException>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"></w:LsdException>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"></w:LsdException>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"></w:LsdException>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"></w:LsdException>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"></w:LsdException>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"></w:LsdException>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"></w:LsdException>
+ </w:LatentStyles>
+</xml><![endif]--><style>
+&lt;!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:"Helvetica Neue";
+	mso-font-alt:"Times New Roman";
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:auto;
+	mso-font-signature:0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:none;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:Calibri;
+	color:black;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:586114789;
+	mso-list-template-ids:1509717074;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:➔;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:.25in;
+	text-decoration:none;
+	text-underline:none;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:◆;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:.75in;
+	text-decoration:none;
+	text-underline:none;}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:●;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:1.25in;
+	text-decoration:none;
+	text-underline:none;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:○;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:1.75in;
+	text-decoration:none;
+	text-underline:none;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:◆;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:2.25in;
+	text-decoration:none;
+	text-underline:none;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:●;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:2.75in;
+	text-decoration:none;
+	text-underline:none;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:○;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:3.25in;
+	text-decoration:none;
+	text-underline:none;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:◆;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:3.75in;
+	text-decoration:none;
+	text-underline:none;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:●;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:4.25in;
+	text-decoration:none;
+	text-underline:none;}
+@list l1
+	{mso-list-id:1138298051;
+	mso-list-template-ids:2095366392;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:➔;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:.25in;
+	text-decoration:none;
+	text-underline:none;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:◆;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:.75in;
+	text-decoration:none;
+	text-underline:none;}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:●;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:1.25in;
+	text-decoration:none;
+	text-underline:none;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:○;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:1.75in;
+	text-decoration:none;
+	text-underline:none;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:◆;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:2.25in;
+	text-decoration:none;
+	text-underline:none;}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:●;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:2.75in;
+	text-decoration:none;
+	text-underline:none;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:○;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:3.25in;
+	text-decoration:none;
+	text-underline:none;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:◆;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:3.75in;
+	text-decoration:none;
+	text-underline:none;}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:●;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:4.25in;
+	text-decoration:none;
+	text-underline:none;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--&gt;
+</style>
+
+
+
+
+
+
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin-top:0in;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]--><!--StartFragment--></b></p><p class=""><b>
+
+
+
+
+
+
+
+
+
+Description
+of Heap Sort:<!--EndFragment--></b><o:p></o:p></p><h1 style="">
 
 </h1><p class=""><b>Heapsort
 </b>is

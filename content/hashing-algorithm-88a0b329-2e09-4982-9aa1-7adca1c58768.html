@@ -89,7 +89,94 @@ typedef struct _hash_table_t_ <br />{
     int size;       /* the size of the table */
 <br />    list_t **table; /* the table elements */
 }hash_table_t;
-</tt></pre></blockquote><p style=""><span></span> <tt>list_t **table </tt><span>is a pointer to a pointer to a linked list.</span></p><p style=""><br /></p><p style=""><br style="" /></p><p><br /></p><p style=""><br /></p><p style=""><br /></p></div>
+</tt></pre></blockquote><p style=""><span></span> <tt>list_t **table </tt><span>is a pointer to a pointer to a linked list.</span></p><p style=""><br /></p><p style=""><meta charset="utf-8" /><span>The creation function for hash table:</span></p><blockquote><pre style=""><tt>
+hash_table_t *create_hash_table(int size)
+<br />{
+<br />  hash_table_t *new_table;
+<br />  if (size&lt;1) return NULL; /* invalid size for table */
+<br />  /* Attempt to allocate memory for the table structure */
+<br />  <br />  if ((new_table = malloc(sizeof(hash_value_t))) == NULL) <br />      {
+        return NULL;
+    }
+    
+    /* Attempt to allocate memory for the table itself */
+<br style="" />  <br />  if ((new_table-&gt;table = malloc(sizeof(list_t *) * size)) == NULL) <br />      {
+        return NULL;
+    }
+
+    /* Initialize the elements of the table */
+<br />  <br />  for(i=0; i&lt;size; i++) <br />      new_table-&gt;table[i] = NULL;
+
+    /* Set the table's size */
+<br />      new_table-&gt;size = size;
+
+    return new_table;
+<br />}
+</tt></pre></blockquote><p></p><div class="floatingad"></div><p>2.  hash function, a relatively simple one.</p><blockquote><pre style=""><tt>
+unsigned int hash(hash_table_t *hashtable, char *str)
+<br />{     <br />     unsigned int hashval;
+<br />     /* we start our hash out at 0 */
+    hashval = 0;
+<br />     /* for each character, we multiply the old hash by 31 and add the current
+<br />     * character. <br style="" />     */
+<br />    <br />    for(; *str != '\0'; str++) <br />        hashval = *str + (hashval &lt;&lt; 5) - hashval;
+<br style="" /> <br style="" />    return hashval % hashtable-&gt;size;
+<br />}
+</tt></pre></blockquote><p></p><p>3. String lookup. </p><blockquote><pre style=""><tt>
+list_t *lookup_string(hash_table_t *hashtable, char *str)
+<br />{
+<br />    list_t *list;
+<br />    unsigned int hashval = hash(hashtable, str);  <br />    /* Go to the correct list based on the hash value and see if str is
+<br />     * in the list.  If it is, return return a pointer to the list element.
+<br style="" />     * If it isn't, the item isn't in the table, so return NULL.
+<br />     */
+<br />    <br />    for(list = hashtable-&gt;table[hashval]; <br />    list != NULL; list = list-&gt;next) <br />    {
+<br />      if (strcmp(str, list-&gt;str) == 0) return list;
+<br />    }
+<br />    <br />    return NULL;
+<br />}
+</tt></pre></blockquote><p></p><p>4. Inserting a string. . Hash the string. Go to the correct place in the array. Insert the new string at the beginning.</p><blockquote><pre><tt>
+int add_string(hash_table_t *hashtable, char *str)
+<br />{
+<br />    list_t *new_list;
+<br />    list_t *current_list;
+<br />    unsigned int hashval = hash(hashtable, str);
+<br />   /* Attempt to allocate memory for list */
+<br />   <br />   if ((new_list = malloc(sizeof(list_t))) == NULL) <br />       return 1;
+<br />   <br />   /* Does item already exist? */
+<br />   current_list = lookup_string(hashtable, str);
+<br />   /* item already exists, don't insert it again. */
+<br />    <br />  if (current_list != NULL) return 2;
+<br />    <br />  /* Insert into list */
+<br />  new_list-&gt;str = strdup(str);
+<br />  new_list-&gt;next = hashtable-&gt;table[hashval];
+<br />  hashtable-&gt;table[hashval] = new_list;
+<br />
+    <br />  return 0;
+<br />}
+</tt></pre></blockquote><p></p><p>5. Deleting a table. </p><blockquote><pre style=""><tt>
+void free_table(hash_table_t *hashtable)
+<br />{
+<br />    int i;
+<br />    list_t *list, *temp;
+<br />
+    <br />   if (hashtable==NULL) <br />       return;
+<br />    <br />   /* Free the memory for every item in the table, including the <br />   * strings themselves.
+<br />   */
+<br />    <br />   for(i=0; i&lt;hashtable-&gt;size; i++) <br />   {
+<br />       list = hashtable-&gt;table[i];
+<br />       while(list!=NULL) <br />      {
+            temp = list;
+<br />        list = list-&gt;next;
+<br />        free(temp-&gt;str);
+            free(temp);
+<br style="" />      }
+<br />   }
+<br />
+    <br />   /* Free the table itself */
+<br />   free(hashtable-&gt;table);
+<br />   free(hashtable);
+<br />}</tt></pre></blockquote><p style=""><br style="" /></p><p><br /></p><p style=""><br /></p><p style=""><br /></p></div>
 				</div>
 			</div>
 		</div><p style="">

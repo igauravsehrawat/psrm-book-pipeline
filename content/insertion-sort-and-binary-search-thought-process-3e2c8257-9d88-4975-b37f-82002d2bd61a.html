@@ -1,4 +1,334 @@
-<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
-  <head></head>
-  <body></body>
-</html>
+<!--?xml version="1.0" encoding="UTF-8"?--><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops"><head></head>
+  <body><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin-top:0in;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]--><!--StartFragment--><p class="" align="center"><br></p><p class="" align="center"><br></p><p class="" align="center"><br></p><p class="" align="center"><br></p><p class="" align="center"><br></p><p class="" align="center"><b><u>&nbsp;SEARCHING ALGORITHMS<o:p></o:p></u></b></p>
+
+<p class="">Search algorithm&nbsp;is an&nbsp;<a href="http://en.wikipedia.org/wiki/Algorithm" title="Algorithm">algorithm</a>&nbsp;for finding an item with specified properties among a&nbsp;<a href="http://en.wikipedia.org/wiki/Collection_(computing)" title="Collection (computing)">collection</a>&nbsp;of items. The items may be
+stored individually as&nbsp;<a href="http://en.wikipedia.org/wiki/Record_(computer_science)" title="Record (computer science)">records</a>&nbsp;in a&nbsp;<a href="http://en.wikipedia.org/wiki/Database" title="Database">database</a>; or may be elements of a&nbsp;<a href="http://en.wikipedia.org/wiki/Mathematical_optimization#Optimization_problems" title="Mathematical optimization">search space</a>&nbsp;defined by a mathematical
+formula or procedure, such as the&nbsp;<a href="http://en.wikipedia.org/wiki/Root_of_a_function" title="Root of a function">roots</a>&nbsp;of an&nbsp;<a href="http://en.wikipedia.org/wiki/Diophantine_equation" title="Diophantine equation">equation</a>&nbsp;with&nbsp;<a href="http://en.wikipedia.org/wiki/Integer" title="Integer">integer</a>&nbsp;<a href="http://en.wikipedia.org/wiki/Variable_(mathematics)" title="Variable (mathematics)">variables</a>; or a combination of the two.<o:p></o:p></p>
+
+&nbsp;
+
+<p class=""><b><u>THOUGHT PROCESS<o:p></o:p></u></b></p>
+
+<p class="">To search for items in a given space is a very common
+problem for humans since time immemorial. So to achieve this task&nbsp; humans used to follow various techniques.
+After gathering all the data human tendency would be to begin search from that
+data set where the probability of finding the the desired element is&nbsp;&nbsp; maximum. This primary step of each technique
+would be to gather information or data from all the potential sources. After
+gathering all the data human tendency would be to begin search from that data
+set where probability of finding the element is maximum .To create &nbsp;the group with maximum probability various
+techniques could be used. These techniques are developed using some property of
+the data present.One technique would be to arrange element in some order and
+then dividing the whole list into subset,and selecting the proper subset .So
+this technique is used by binary search algorithm.&nbsp; </p>
+
+<p class=""><b><u>BINARY SEARCH<o:p></o:p></u></b></p>
+
+<p class="">If the list to be searched contains few items, then it would
+be easy to search a particular element in it but if the list is large then it
+will be tedious task. Thus to reduce the search space subsets are to formed
+using some property which could segregate the elements. One simple technique to
+form subset is to arrange elements in some order and then forming subsets using
+some conditions. And this technique is used in binary search. Here the list is
+sorted and &nbsp;divided into halves depending
+on condition and then a proper subset is identified in which the element is
+found. We do comparisons and find out the subset in which the element is
+present. By this way eliminate rest of the array. Hence our search space is
+reduced to half in each iteration, hence the cost and time to search the
+element is also reduced. To achieve this we compare the element the element to
+be searched with the mid element and after comparison the proper subset is
+identified.</p>
+
+<p class="">To solve this problem one approach is to assume that
+sequence S is ordered( for instance S is monotonically increasing sequence) and
+then to proceed as follows:</p>
+
+<ul><li><!--[if !supportLists]--><!--[endif]-->Compare x with S[K], (1&lt;K&lt;=T)</li><li><!--[if !supportLists]--><!--[endif]-->If x=S[K], then the search is successful and the
+meassge ‘x έ S’ is&nbsp; generated;</li><li><!--[if !supportLists]--><!--[endif]-->If x&lt;S[K], then the search proceeds within
+the sequence S[1:K-1];</li><li><!--[if !supportLists]--><!--[endif]-->If x&gt;S[K], then the search proceeds within
+the sequence S[K+1:T];</li><li><!--[if !supportLists]--><!--[endif]-->If the search sequence is empty, the search is
+unsuccessful and the message ‘x does not belongs to S’ is generated.</li></ul>
+
+
+
+
+
+
+
+
+
+<p class="">Assuming that each of the T terms
+is equally likely to be the number sought for, it is clear that an efficient
+search method will have the search sequence on each iteration step. Thus a
+search requires about log<sub>2</sub>T comparisons.</p>
+
+<!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"></v:stroke>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"></v:f>
+  <v:f eqn="sum @0 1 0"></v:f>
+  <v:f eqn="sum 0 0 @1"></v:f>
+  <v:f eqn="prod @2 1 2"></v:f>
+  <v:f eqn="prod @3 21600 pixelWidth"></v:f>
+  <v:f eqn="prod @3 21600 pixelHeight"></v:f>
+  <v:f eqn="sum @0 0 1"></v:f>
+  <v:f eqn="prod @6 1 2"></v:f>
+  <v:f eqn="prod @7 21600 pixelWidth"></v:f>
+  <v:f eqn="sum @8 21600 0"></v:f>
+  <v:f eqn="prod @7 21600 pixelHeight"></v:f>
+  <v:f eqn="sum @10 21600 0"></v:f>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"></v:path>
+ <o:lock v:ext="edit" aspectratio="t"></o:lock>
+</v:shapetype><v:shape id="Picture_x0020_0" o:spid="_x0000_i1025" type="#_x0000_t75"
+ alt="Capture.PNG" style='width:468pt;height:223.5pt;visibility:visible;
+ mso-wrap-style:square'>
+ <v:imagedata src="file:///C:\Users\dell\AppData\Local\Temp\msohtmlclip1\01\clip_image001.png"
+  o:title="Capture"></v:imagedata>
+</v:shape><![endif]--><!--[if !vml]--><img border="0" width="624" height="298" src="file:///C:\Users\dell\AppData\Local\Temp\msohtmlclip1\01\clip_image002.gif" alt="Capture.PNG" v:shapes="Picture_x0020_0"><!--[endif]-->&nbsp;
+
+<p class="">Some of the very common every day application of binary
+search is finding words in a dictionary or finding phone numbers from a phone directory.</p>
+
+&nbsp;
+
+&nbsp;
+
+
+
+
+
+odule with content.
+  
+
+<!--EndFragment--><link rel="File-List" href="file:///C:\Users\dell\AppData\Local\Temp\msohtmlclip1\01\clip_filelist.xml"><link rel="Edit-Time-Data" href="file:///C:\Users\dell\AppData\Local\Temp\msohtmlclip1\01\clip_editdata.mso"><link rel="themeData" href="file:///C:\Users\dell\AppData\Local\Temp\msohtmlclip1\01\clip_themedata.thmx"><link rel="colorSchemeMapping" href="file:///C:\Users\dell\AppData\Local\Temp\msohtmlclip1\01\clip_colorschememapping.xml"><style>
+&lt;!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;
+	mso-style-unhide:no;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:104664914;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1625437316 -964106010 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-number-format:roman-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.5in;}
+@list l1
+	{mso-list-id:655185240;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1949679856 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--&gt;
+</style>
+</body></html>

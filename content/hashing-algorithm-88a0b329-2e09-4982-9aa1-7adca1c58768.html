@@ -1,72 +1,54 @@
-<html xmlns="http://www.w3.org/1999/xhtml"><head></head><body><h1 xmlns="http://www.w3.org/1999/xhtml"><strong>Overview : </strong></h1><p xmlns="http://www.w3.org/1999/xhtml" style=""><strong></strong>
+<html xmlns="http://www.w3.org/1999/xhtml"><head></head><body><h1 xmlns="http://www.w3.org/1999/xhtml"><strong>Overview : </strong></h1><div><strong>
 
 	
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Microsoft PowerPoint - Hashing.ppt</title>
 	
 	
-		</p><div class="column" data-unknown="true">
-						<p><span>Hash table</span><span>: an effective data structure for
-implementing dictionaries
-</span></p>
-					</div><div xmlns="http://www.w3.org/1999/xhtml" class="page" title="Page 3" data-unknown="true">
-			<div class="section" data-unknown="true">
-				<div class="layoutArea" data-unknown="true">
-					
-				</div>
-			</div>
-		</div><p xmlns="http://www.w3.org/1999/xhtml" style="">
-	
-
-
-	
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Microsoft PowerPoint - Hashing.ppt</title>
-	
-	
-		</p><div xmlns="http://www.w3.org/1999/xhtml" class="page" title="Page 3" data-unknown="true">
-			<div class="section" data-unknown="true">
-				<div class="layoutArea" data-unknown="true">
-					<div class="column" data-unknown="true">
-						<p><span>Many applications require a dynamic set </span><span>S </span><span>to
+		</strong><div class="page" title="Page 3"><b>
+			</b><div class="section"><b>
+				</b><div class="layoutArea"><b>
+					</b><div class="column"><b>
+						</b><p><b><span>Many applications require a dynamic set </span><span>S </span><span>to
 supports the following dictionary operations:
-</span></p>
-						<p><span></span><span>Search</span><span>(</span><span>k</span><span>)</span><span>: check if </span><span>k </span><span>is in </span><span>S                                                                                                                                           </span><span>Insert</span><span>(</span><span>k</span><span>)</span><span>: insert </span><span>k </span><span>into </span><span>S<br />
-</span><span> </span><span>Delete</span><span>(</span><span>k</span><span>)</span><span>: delete </span><span>k </span><span>from </span><span>S
-</span></p>
-					</div>
-				</div>
-			</div>
-		</div><p xmlns="http://www.w3.org/1999/xhtml" style="">
-	
-
+</span></b></p><b>
+						</b><p><b><span></span><span>Search</span><span>(</span><span>k</span><span>)</span><span>: check if </span><span>k </span><span>is in </span><span>S
+</span></b></p><p style=""><b><span>Insert</span><span>(</span><span>k</span><span>)</span><span>: insert </span><span>k </span><span>into </span><span>S</span></b></p><p style=""><b><span></span><span>Delete</span><span>(</span><span>k</span><span>)</span><span>: delete </span><span>k </span><span>from </span><span>S</span></b></p><p style=""><br style="" /></p><h2><b><span>Some general terms : </span><span> </span></b><br /></h2><b>
+					</b></div><b>
+				</b></div><b>
+			</b></div><b>
+		</b></div><p style="">
+<meta charset="utf-8" /><b>Hash Table<span class="Apple-converted-space"> </span></b><span> -  A data structure that uses a random access data structure, such as an array, and a mapping function, called a hash function, to allow for O(1) searches.</span>  <br style="" /></p></div><p xmlns="http://www.w3.org/1999/xhtml" style=""><strong></strong>
 
 	
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Microsoft PowerPoint - Hashing.ppt</title>
 	
 	
-		</p><div xmlns="http://www.w3.org/1999/xhtml" class="page" title="Page 6" data-unknown="true">
-			<div class="section" data-unknown="true">
-				<div class="layoutArea" data-unknown="true">
-					<div class="column" data-unknown="true">
-						<p><span>Direct addressing table
+		</p><div class="content_txt"><b>Collision<span class="Apple-converted-space"> </span></b> -  A collision occurs when two data elements are hashed to the same value and try to occupy the same space in the hash table (in other words they collide). This is often solved by a linear or quadratic probing method or by separate chaining.</div><div class="content_txt"><b>Linear Probing<span class="Apple-converted-space"> </span></b> -  Linear probing is one method for dealing with collisions. If a data element hashes to a location in the table that is already occupied, the table is searched consecutively from that location until an open location is found.</div><div class="content_txt"><b>Separate Chaining<span class="Apple-converted-space"> </span></b> -  Separate chaining is a method for dealing with collisions. The hash table is an array of linked lists. Data elements that hash to the same value are stored in a linked list originating from the index equivalent of their hash value.</div><h1 xmlns="http://www.w3.org/1999/xhtml"><span><strong>What is hashing ?</strong>
+</span></h1><div>Hashing is the process of running data through a hash function. A hash function is a mapping between a set of input values and a set of integers, known as hash values. A good hash function has the following properties: 1) The hash value is fully determined by the data being hashed. 2) The hash function uses all the input data. 3) The hash function "uniformly" distributes the data across the entire set of possible hash values. 4) The hash function generates very different hash values for similar strings.</div><div><br /></div><div style=""><figure class="figure" title=""><div class="title"></div><img draggable="false" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Hash_table_4_1_1_0_0_1_0_LL.svg/240px-Hash_table_4_1_1_0_0_1_0_LL.svg.png" alt="what is hashing" /><figcaption></figcaption></figure></div><div style=""><br /></div><div style=""><h2>Advantages of Hashing</h2><p style="">
+
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Microsoft PowerPoint - Hashing.ppt</title>
+	
+	
+		</p><div class="page" title="Page 7">
+			<div class="section">
+				<div class="layoutArea">
+					<div class="column">
+						<p><span></span><span>
 </span></p>
-						<ul><li><p><span></span><span>The difficulty with direct addressing is obvious:
-</span></p></li><li><p><span></span><span>The table </span><span>T </span><span>size = </span><span>O(|U|)
-</span></p></li><li><p><span></span><span>If |</span><span>K</span><span>| &lt;&lt; |</span><span>U</span><span>| , then use too much spaces.
-</span></p></li><li><p><span></span><span>Time is money ! Space is money, too !?
-</span></p></li></ul>
+						<ul><li><p><span></span><span>Use hashing to search,data need not be sorted
+</span></p></li><li><p><span></span><span>Without collision &amp; overflow, search only takes
+O(1) time. Data size is not concerned
+</span></p></li><li><p><span></span><span>Security. If you do not know the hash function,
+you cannot get data</span></p><p><span>
+</span><br /></p><p><br /></p></li></ul>
 					</div>
 				</div>
 			</div>
-		</div><p xmlns="http://www.w3.org/1999/xhtml" style=""><br /></p><h1 xmlns="http://www.w3.org/1999/xhtml"><span><strong>What is hashing ?</strong>
-</span></h1><div xmlns="http://www.w3.org/1999/xhtml" class="page" title="Page 7" data-unknown="true"><div class="section" data-unknown="true"><div class="layoutArea" data-unknown="true"><div class="column" data-unknown="true">
-						<p><span></span><span>Hashing </span><span>has following advantages:
-</span></p>
-						<p></p><p><span></span><span>Use hashing to search,data need not be sorted
-</span></p><p></p><p></p><p><span></span><span>Without collision &amp; overflow, search only takes
-O(1) time. Data size is not concerned
-</span></p><p></p><p></p><p style=""><span>Security. If you do not know the hash function,
-you cannot get data.</span></p><p style=""><br /></p><p></p><h1 style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong></strong></h1><h1><span><strong></strong></span><strong>Hash Table</strong></h1><p>A hash table  is a data structure use to implement an associative array, a structure that can map keys to values. A hash table uses a hash function to compute an index into an array of buckets or slots, from which the correct value can be found.</p><p>Ideally, the hash function will assign each key to a unique bucket, but this situation is rarely achievable in practice (usually some keys will hash to the same bucket).</p><p><br /></p><h1><strong>Hash function</strong></h1><p>A hash function is any algorithm that maps data of arbitrary length to data of a fixed length. The values returned by a hash function are called hash values, hash codes, hash sums, checksums or simply hashes. Recent development of internet payment networks also uses a form of 'hashing' for checksums, and has brought additional attention to the term.</p><p><br /></p><p>For example, if the keys k are known to be random real numbers independently and uniformly distributed in the range 0 ≤k &lt; 1, the hash function</p><p></p><p> the condition of simple uniform</p><p>hashing.</p><div class="page" title="Page 8" data-unknown="true"><div class="section" data-unknown="true"><div class="layoutArea" data-unknown="true"><div class="column" data-unknown="true"><p style=""><br /></p><p style=""><br /></p><p style=""><br /></p><p style="margin-top: 0.4em; margin-bottom: 0.5em; line-height: 19px; color: rgb(0, 0, 0); font-family: sans-serif;"><br /></p><p style="margin-top: 0.4em; margin-bottom: 0.5em; line-height: 19px; color: rgb(0, 0, 0); font-family: sans-serif;"><br /></p></div></div></div></div></div></div></div></div><sup xmlns="http://www.w3.org/1999/xhtml"></sup>
+		</div><p style="">
+	
+<br style="" /></p></div><div style=""></div><div><span><strong><meta charset="utf-8" /></strong></span><div class="content_txt"><b></b><br /></div><span><strong><br /></strong></span></div><sup xmlns="http://www.w3.org/1999/xhtml"></sup>
 </body></html>

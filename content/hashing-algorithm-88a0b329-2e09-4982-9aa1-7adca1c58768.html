@@ -17,16 +17,62 @@ supports the following dictionary operations:
 					</b></div><b>
 				</b></div><b>
 			</b></div><b>
-		</b></div><p style="">
-<meta charset="utf-8" /><b>Hash Table<span class="Apple-converted-space"> </span></b><span> -  A data structure that uses a random access data structure, such as an array, and a mapping function, called a hash function, to allow for O(1) searches.</span>  <br style="" /></p></div><p xmlns="http://www.w3.org/1999/xhtml" style=""><strong></strong>
+		</b></div><p style="">  <br style="" /></p></div><p xmlns="http://www.w3.org/1999/xhtml" style=""><strong></strong>
 
 	
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Microsoft PowerPoint - Hashing.ppt</title>
 	
 	
-		</p><div class="content_txt"><b>Collision<span class="Apple-converted-space"> </span></b> -  A collision occurs when two data elements are hashed to the same value and try to occupy the same space in the hash table (in other words they collide). This is often solved by a linear or quadratic probing method or by separate chaining.</div><div class="content_txt"><b>Linear Probing<span class="Apple-converted-space"> </span></b> -  Linear probing is one method for dealing with collisions. If a data element hashes to a location in the table that is already occupied, the table is searched consecutively from that location until an open location is found.</div><div class="content_txt"><b>Separate Chaining<span class="Apple-converted-space"> </span></b> -  Separate chaining is a method for dealing with collisions. The hash table is an array of linked lists. Data elements that hash to the same value are stored in a linked list originating from the index equivalent of their hash value.</div><h1 xmlns="http://www.w3.org/1999/xhtml"><span><strong>What is hashing ?</strong>
-</span></h1><div>Hashing is the process of running data through a hash function. A hash function is a mapping between a set of input values and a set of integers, known as hash values. A good hash function has the following properties: 1) The hash value is fully determined by the data being hashed. 2) The hash function uses all the input data. 3) The hash function "uniformly" distributes the data across the entire set of possible hash values. 4) The hash function generates very different hash values for similar strings.</div><div><br /></div><div style=""><figure class="figure" title=""><div class="title"></div><img draggable="false" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Hash_table_4_1_1_0_0_1_0_LL.svg/240px-Hash_table_4_1_1_0_0_1_0_LL.svg.png" alt="what is hashing" /><figcaption></figcaption></figure></div><div style=""><br /></div><div style=""><h2>Advantages of Hashing</h2><p style="">
+		</p><div class="content_txt"><br /></div><div class="content_txt"><b>Linear Probing<span class="Apple-converted-space"> </span></b> -  Linear probing is one method for dealing with collisions. If a data element hashes to a location in the table that is already occupied, the table is searched consecutively from that location until an open location is found.</div><div class="content_txt"><b>Separate Chaining<span class="Apple-converted-space"> </span></b> -  Separate chaining is a method for dealing with collisions. The hash table is an array of linked lists. Data elements that hash to the same value are stored in a linked list originating from the index equivalent of their hash value.</div><h1 xmlns="http://www.w3.org/1999/xhtml"><span><strong>What is hashing ?</strong>
+</span></h1><div>Hashing is the process of running data through a hash function. A hash function is a mapping between a set of input values and a set of integers, known as hash values. A good hash function has the following properties: 1) The hash value is fully determined by the data being hashed. 2) The hash function uses all the input data. 3) The hash function "uniformly" distributes the data across the entire set of possible hash values. 4) The hash function generates very different hash values for similar strings.</div><div><br /></div><div style=""><figure class="figure" title=""><div class="title"></div><img draggable="false" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Hash_table_4_1_1_0_0_1_0_LL.svg/240px-Hash_table_4_1_1_0_0_1_0_LL.svg.png" alt="what is hashing" /><figcaption></figcaption></figure></div><div style="">Examples of hash functions :</div><p><br /></p><div style="">
+
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Microsoft PowerPoint - Hashing.ppt</title>
+	
+	
+		<div class="page" title="Page 12">
+			<div class="section">
+				<div class="layoutArea">
+					<div class="column">
+						<ul><li style=""><span><strong>Division</strong></span><br style="" /><span>Mapping a key k into one of m slots by taking
+the remainder of k divided by m
+</span><br style="" /><span>h(k)=k mod m<br />
+</span><span></span><span>Ex. m=12, k=100, then h(k)=4</span></li><li style=""><span><strong>Mid square</strong> </span><br style="" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Microsoft PowerPoint - Hashing.ppt</title><div class="page" title="Page 13">
+			<div class="section">
+				<div class="layoutArea">
+					<div class="column">
+						<p><span>Mapping a key k into one of m slots by get the
+middle some digits from value k</span><span>2
+</span></p>
+						<p><span>h( k ) = k</span><span>2 </span><span>get middle (log m) digits
+</span></p>
+					</div>
+				</div>
+				<div class="layoutArea">
+					<div class="column">
+						<p style=""><span><br style="" />
+</span><span>Ex. m=10000, k=113586, log(m)=4
+</span></p></div></div><div class="layoutArea"><div class="column">
+					</div>
+					<div class="column">
+						<p><span>
+</span></p>
+					</div>
+				</div>
+				<div class="layoutArea">
+					<div class="column">
+						<p><span>h(k) = 113586</span><span><sup>2</sup>                              get middle 4 digits<br />
+</span><span>       = 1290</span><span><strong>1779</strong></span><span>369                     </span>get middle 4 digits</p><p><span>       = 1779
+</span></p>
+					</div>
+					<div class="column">
+						<p><span> </span></p>
+					</div>
+				</div>
+			</div>
+		</div></li></ul></div></div></div></div></div><div style=""><br /></div><div style=""><h2>Advantages of Hashing</h2><p style="">
 
 	
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -39,13 +85,12 @@ supports the following dictionary operations:
 					<div class="column">
 						<p><span></span><span>
 </span></p>
-						<ul><li><p><span></span><span>Use hashing to search,data need not be sorted
-</span></p></li><li><p><span></span><span>Without collision &amp; overflow, search only takes
+						<p></p><p><span></span><span>Use hashing to search,data need not be sorted
+</span></p><p></p><p></p><p><span></span><span>Without collision &amp; overflow, search only takes
 O(1) time. Data size is not concerned
-</span></p></li><li><p><span></span><span>Security. If you do not know the hash function,
+</span></p><p></p><p></p><p><span></span><span>Security. If you do not know the hash function,
 you cannot get data</span></p><p><span>
-</span><br /></p><p><br /></p></li></ul>
-					</div>
+</span><br /></p><p></p><p>A data structure that uses hashing is called a hash table.</p><p><b>Hash Table </b> -  A data structure that uses a random access data structure, such as an array, and a mapping function, called a hash function, to allow for O(1) searches.</p><p style=""><meta charset="utf-8" /><span>A hash table is made up of two parts: an array (the actual table where the data to be searched is stored) and a mapping function, known as a hash function. The hash function is a mapping from the input space to the integer space that defines the indices of the array. In other words, the hash function provides a way for assigning numbers to the input data such that the data can then be stored at the array index corresponding to the assigned number.</span></p><p style=""><br /></p><p style="">A problem associated with hashing is called collision.</p><p style=""><b>Collision </b> -  A collision occurs when two data elements are hashed to the same value and try to occupy the same space in the hash table (in other words they collide). This is often solved by a linear or quadratic probing method or by separate chaining.</p><p style=""><br /></p><p style=""><br /></p><p style=""><br /></p></div>
 				</div>
 			</div>
 		</div><p style="">

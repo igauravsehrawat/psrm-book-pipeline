@@ -1,0 +1,185 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head></head><body><h1 xmlns="http://www.w3.org/1999/xhtml"><strong>Overview : </strong></h1><div><strong>
+
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Microsoft PowerPoint - Hashing.ppt</title>
+	
+	
+		</strong><div class="page" title="Page 3"><b>
+			</b><div class="section"><b>
+				</b><div class="layoutArea"><b>
+					</b><div class="column"><b>
+						</b><p><b><span>Many applications require a dynamic set </span><span>S </span><span>to
+supports the following dictionary operations:
+</span></b></p><b>
+						</b><p><b><span></span><span>Search</span><span>(</span><span>k</span><span>)</span><span>: check if </span><span>k </span><span>is in </span><span>S
+</span></b></p><p style=""><b><span>Insert</span><span>(</span><span>k</span><span>)</span><span>: insert </span><span>k </span><span>into </span><span>S</span></b></p><p style=""><b><span></span><span>Delete</span><span>(</span><span>k</span><span>)</span><span>: delete </span><span>k </span><span>from </span><span>S</span></b></p><p style=""><br /></p></div></div></div></div></div><h1 xmlns="http://www.w3.org/1999/xhtml"><span><strong>What is hashing ?</strong>
+</span></h1><div>Hashing is the process of running data through a hash function. A hash function is a mapping between a set of input values and a set of integers, known as hash values. A good hash function has the following properties: 1) The hash value is fully determined by the data being hashed. 2) The hash function uses all the input data. 3) The hash function "uniformly" distributes the data across the entire set of possible hash values. 4) The hash function generates very different hash values for similar strings.</div><div><br /></div><div style=""><figure class="figure" title=""><div class="title"></div><img draggable="false" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Hash_table_4_1_1_0_0_1_0_LL.svg/240px-Hash_table_4_1_1_0_0_1_0_LL.svg.png" alt="what is hashing" /><figcaption></figcaption></figure></div><div style="">Examples of hash functions :</div><p><br /></p><div style="">
+
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Microsoft PowerPoint - Hashing.ppt</title>
+	
+	
+		<div class="page" title="Page 12">
+			<div class="section">
+				<div class="layoutArea">
+					<div class="column">
+						<ul><li style=""><span><strong>Division</strong></span><br style="" /><span>Mapping a key k into one of m slots by taking
+the remainder of k divided by m
+</span><br style="" /><span>h(k)=k mod m<br />
+</span><span></span><span>Ex. m=12, k=100, then h(k)=4</span></li><li style=""><span><strong>Mid square</strong> </span><br style="" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Microsoft PowerPoint - Hashing.ppt</title><div class="page" title="Page 13">
+			<div class="section">
+				<div class="layoutArea">
+					<div class="column">
+						<p><span>Mapping a key k into one of m slots by get the
+middle some digits from value k</span><span>2
+</span></p>
+						<p><span>h( k ) = k</span><span>2 </span><span>get middle (log m) digits
+</span></p>
+					</div>
+				</div>
+				<div class="layoutArea">
+					<div class="column">
+						<p style=""><span><br style="" />
+</span><span>Ex. m=10000, k=113586, log(m)=4
+</span></p></div></div><div class="layoutArea"><div class="column">
+					</div>
+					<div class="column">
+						<p><span>
+</span></p>
+					</div>
+				</div>
+				<div class="layoutArea">
+					<div class="column">
+						<p><span>h(k) = 113586</span><span><sup>2</sup>                              get middle 4 digits<br />
+</span><span>       = 1290</span><span><strong>1779</strong></span><span>369                     </span>get middle 4 digits</p><p><span>       = 1779
+</span></p>
+					</div>
+					<div class="column">
+						<p><span> </span></p>
+					</div>
+				</div>
+			</div>
+		</div></li></ul></div></div></div></div></div><div style=""><br /></div><div style=""><h2>Advantages of Hashing</h2><p style="">
+
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Microsoft PowerPoint - Hashing.ppt</title>
+	
+	
+		</p><div class="page" title="Page 7">
+			<div class="section">
+				<div class="layoutArea">
+					<div class="column">
+						<p><span></span><span>
+</span></p>
+						<p></p><p><span></span><span>Use hashing to search,data need not be sorted
+</span></p><p></p><p></p><p><span></span><span>Without collision &amp; overflow, search only takes
+O(1) time. Data size is not concerned
+</span></p><p></p><p></p><p><span></span><span>Security. If you do not know the hash function,
+you cannot get data</span></p><p><span>
+</span><br /></p><p></p><p>A data structure that uses hashing is called a hash table.</p><p><b>Hash Table </b> -  A data structure that uses a random access data structure, such as an array, and a mapping function, called a hash function, to allow for O(1) searches.</p><p style=""><meta charset="utf-8" /><span>A hash table is made up of two parts: an array (the actual table where the data to be searched is stored) and a mapping function, known as a hash function. The hash function is a mapping from the input space to the integer space that defines the indices of the array. In other words, the hash function provides a way for assigning numbers to the input data such that the data can then be stored at the array index corresponding to the assigned number.</span></p><p style=""><br /></p><p style="">A problem associated with hashing is called collision.</p><p style=""><b>Collision </b> -  A collision occurs when two data elements are hashed to the same value and try to occupy the same space in the hash table (in other words they collide). This is often solved by a linear or quadratic probing method or by separate chaining.</p><p style=""><meta charset="utf-8" /><span>Separate chaining requires a slight modification to the data structure. Instead of storing the data elements right into the array, they are stored in linked lists. Each slot in the array then points to one of these linked lists. When an element hashes to a value, it is added to the linked list at that index in the array. Because a linked list has no limit on length, collisions are no longer a problem. If more than one element hashes to the same value, then both are stored in that linked list.</span></p><p style="">Linear probing is one method for dealing with collisions. If a data element hashes to a location in the table that is already occupied, the table is searched consecutively from that location until an open location is found.</p><p style=""><br /></p><h2>Pseudo code implementation</h2><p style=""><meta charset="utf-8" /></p><h4>Data structures</h4><div class="floatingad"></div><p><br /></p><p>1. linked lists (for separate chaining):</p><blockquote><pre><tt>
+typedef struct _list_t_ <br />{
+    char *string;
+    struct _list_t_ *next;
+} list_t;
+</tt></pre></blockquote><p></p><p>2. hash table structure.</p><blockquote><pre style=""><tt>
+typedef struct _hash_table_t_ <br />{
+    int size;       /* the size of the table */
+<br />    list_t **table; /* the table elements */
+}hash_table_t;
+</tt></pre></blockquote><p style=""><span></span> <tt>list_t **table </tt><span>is a pointer to a pointer to a linked list.</span></p><p style=""><br /></p><p style=""><meta charset="utf-8" /><span>The creation function for hash table:</span></p><blockquote><pre style=""><tt>
+hash_table_t *create_hash_table(int size)
+<br />{
+<br />  hash_table_t *new_table;
+<br />  if (size&lt;1) return NULL; /* invalid size for table */
+<br />  /* Attempt to allocate memory for the table structure */
+<br />  <br />  if ((new_table = malloc(sizeof(hash_value_t))) == NULL) <br />      {
+        return NULL;
+    }
+    
+    /* Attempt to allocate memory for the table itself */
+<br style="" />  <br />  if ((new_table-&gt;table = malloc(sizeof(list_t *) * size)) == NULL) <br />      {
+        return NULL;
+    }
+
+    /* Initialize the elements of the table */
+<br />  <br />  for(i=0; i&lt;size; i++) <br />      new_table-&gt;table[i] = NULL;
+
+    /* Set the table's size */
+<br />      new_table-&gt;size = size;
+
+    return new_table;
+<br />}
+</tt></pre></blockquote><p></p><div class="floatingad"></div><p>2.  hash function, a relatively simple one.</p><blockquote><pre style=""><tt>
+unsigned int hash(hash_table_t *hashtable, char *str)
+<br />{     <br />     unsigned int hashval;
+<br />     /* we start our hash out at 0 */
+    hashval = 0;
+<br />     /* for each character, we multiply the old hash by 31 and add the current
+<br />     * character. <br style="" />     */
+<br />    <br />    for(; *str != '\0'; str++) <br />        hashval = *str + (hashval &lt;&lt; 5) - hashval;
+<br style="" /> <br style="" />    return hashval % hashtable-&gt;size;
+<br />}
+</tt></pre></blockquote><p></p><p>3. String lookup. </p><blockquote><pre style=""><tt>
+list_t *lookup_string(hash_table_t *hashtable, char *str)
+<br />{
+<br />    list_t *list;
+<br />    unsigned int hashval = hash(hashtable, str);  <br />    /* Go to the correct list based on the hash value and see if str is
+<br />     * in the list.  If it is, return return a pointer to the list element.
+<br style="" />     * If it isn't, the item isn't in the table, so return NULL.
+<br />     */
+<br />    <br />    for(list = hashtable-&gt;table[hashval]; <br />    list != NULL; list = list-&gt;next) <br />    {
+<br />      if (strcmp(str, list-&gt;str) == 0) return list;
+<br />    }
+<br />    <br />    return NULL;
+<br />}
+</tt></pre></blockquote><p></p><p>4. Inserting a string. . Hash the string. Go to the correct place in the array. Insert the new string at the beginning.</p><blockquote><pre><tt>
+int add_string(hash_table_t *hashtable, char *str)
+<br />{
+<br />    list_t *new_list;
+<br />    list_t *current_list;
+<br />    unsigned int hashval = hash(hashtable, str);
+<br />   /* Attempt to allocate memory for list */
+<br />   <br />   if ((new_list = malloc(sizeof(list_t))) == NULL) <br />       return 1;
+<br />   <br />   /* Does item already exist? */
+<br />   current_list = lookup_string(hashtable, str);
+<br />   /* item already exists, don't insert it again. */
+<br />    <br />  if (current_list != NULL) return 2;
+<br />    <br />  /* Insert into list */
+<br />  new_list-&gt;str = strdup(str);
+<br />  new_list-&gt;next = hashtable-&gt;table[hashval];
+<br />  hashtable-&gt;table[hashval] = new_list;
+<br />
+    <br />  return 0;
+<br />}
+</tt></pre></blockquote><p></p><p>5. Deleting a table. </p><blockquote><pre style=""><tt>
+void free_table(hash_table_t *hashtable)
+<br />{
+<br />    int i;
+<br />    list_t *list, *temp;
+<br />
+    <br />   if (hashtable==NULL) <br />       return;
+<br />    <br />   /* Free the memory for every item in the table, including the <br />   * strings themselves.
+<br />   */
+<br />    <br />   for(i=0; i&lt;hashtable-&gt;size; i++) <br />   {
+<br />       list = hashtable-&gt;table[i];
+<br />       while(list!=NULL) <br />      {
+            temp = list;
+<br />        list = list-&gt;next;
+<br />        free(temp-&gt;str);
+            free(temp);
+<br style="" />      }
+<br />   }
+<br />
+    <br />   /* Free the table itself */
+<br />   free(hashtable-&gt;table);
+<br />   free(hashtable);
+<br />}</tt></pre></blockquote><p style=""><br style="" /></p><p><br /></p><p style=""><br /></p><p style=""><br /></p></div>
+				</div>
+			</div>
+		</div><p style="">
+	
+<br style="" /></p></div><div style=""></div><div><span><strong><meta charset="utf-8" /></strong></span><div class="content_txt"><b></b><br /></div><span><strong><br /></strong></span></div><sup xmlns="http://www.w3.org/1999/xhtml"></sup>
+</body></html>

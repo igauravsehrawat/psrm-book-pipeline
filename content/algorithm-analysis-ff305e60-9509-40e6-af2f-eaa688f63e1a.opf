@@ -4,8 +4,11 @@
     <dc:identifier id="uid"/>
     <dc:title>Algorithm analysis</dc:title>
   </metadata>
+
+
 <<<<<<< HEAD
-<<<<<<< HEAD
+<<<<<<< HEAD only manipulate manifest and spine ..
+<<<<spine is responsible for the html menu .
 
 
   <manifest>

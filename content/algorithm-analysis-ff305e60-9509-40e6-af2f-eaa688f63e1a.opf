@@ -6,11 +6,6 @@
   </metadata>
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD only manipulate manifest and spine ..
-<<<<spine is responsible for the html menu .
-
-
   <manifest>
   <item href="algorithm-analysis-e414a58f-2e8a-4e39-a94e-d35e40826b16-nav.html" id="algorithm-analysis-e414a58f-2e8a-4e39-a94e-d35e40826b16-nav.html" media-type="application/xhtml+xml" properties="nav"/>
   <item href="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html" id="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
@@ -28,8 +23,127 @@
 
 
 
+
+
   </manifest>
 
+
+<manifest>
+  <item href="lamports-algorithm-8d8d78d9-da49-43c9-942e-23a8102b8042.html" id="lamports-algorithm-8d8d78d9-da49-43c9-942e-23a8102b8042.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/86c9d8adc71100405bc7319e1cb263f6e1985031.png" id="../resources/86c9d8adc71100405bc7319e1cb263f6e1985031.png" media-type="image/png" properties="mathml scripted"/></manifest>
+
+  <manifest>
+ <item href="demo-4e922b87-64ab-4cf9-bf66-ff8932d921b5.html" id="demo-4e922b87-64ab-4cf9-bf66-ff8932d921b5.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="naive-bayes-classifier-algorithm--dc56e1ca-b677-4d67-af24-5fb61799ae2f.html" id="naive-bayes-classifier-algorithm--dc56e1ca-b677-4d67-af24-5fb61799ae2f.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
+  <item href="navie-bayesian-classifier-algorithm-5dac4168-ead8-48e5-bb9d-a2d5c1ea78e3.html" id="navie-bayesian-classifier-algorithm-5dac4168-ead8-48e5-bb9d-a2d5c1ea78e3.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
+  <item href="../resources/25c7345cfe49055bf5538610afa204998b47267c" id="../resources/25c7345cfe49055bf5538610afa204998b47267c" media-type="" properties="mathml scripted"/><item href="../resources/5d9a74d9744b42031391fde4da983e8f8670d758.png" id="../resources/5d9a74d9744b42031391fde4da983e8f8670d758.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/f962b1d36fc2829fa29789a6ab96e73543881ad0.png" id="../resources/f962b1d36fc2829fa29789a6ab96e73543881ad0.png" media-type="image/png" properties="mathml scripted"/></manifest>
+  <manifest>
+  <item href="lamports-algorithm-8d8d78d9-da49-43c9-942e-23a8102b8042.html" id="lamports-algorithm-8d8d78d9-da49-43c9-942e-23a8102b8042.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/86c9d8adc71100405bc7319e1cb263f6e1985031.png" id="../resources/86c9d8adc71100405bc7319e1cb263f6e1985031.png" media-type="image/png" properties="mathml scripted"/></manifest>
+  <manifest>
+  <item href="naive-bayes-classifier-algorithm--dc56e1ca-b677-4d67-af24-5fb61799ae2f.html" id="naive-bayes-classifier-algorithm--dc56e1ca-b677-4d67-af24-5fb61799ae2f.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="navie-bayesian-classifier-algorithm-5dac4168-ead8-48e5-bb9d-a2d5c1ea78e3.html" id="navie-bayesian-classifier-algorithm-5dac4168-ead8-48e5-bb9d-a2d5c1ea78e3.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/25c7345cfe49055bf5538610afa204998b47267c" id="../resources/25c7345cfe49055bf5538610afa204998b47267c" media-type="" properties="mathml scripted"/><item href="../resources/5d9a74d9744b42031391fde4da983e8f8670d758.png" id="../resources/5d9a74d9744b42031391fde4da983e8f8670d758.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/f962b1d36fc2829fa29789a6ab96e73543881ad0.png" id="../resources/f962b1d36fc2829fa29789a6ab96e73543881ad0.png" media-type="image/png" properties="mathml scripted"/>
+  </manifest>
+
+
+  <manifest>
+  <item href="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" id="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" media-type="image/png" properties="mathml scripted"/><item href="huangs-termination-detectionbellman-fordtoken-ring--949aab29-71c9-4dd0-b132-da6843aec80f.html" id="huangs-termination-detectionbellman-fordtoken-ring--949aab29-71c9-4dd0-b132-da6843aec80f.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
+  </manifest>
+
+
+  <manifest>
+  <item href="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" id="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" media-type="image/png" properties="mathml scripted"/><item href="example-selection-sort-a289c27d-d4ce-4e15-9c01-95cf495993d8.html" id="example-selection-sort-a289c27d-d4ce-4e15-9c01-95cf495993d8.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/96240dab74c849d188a959659118f9b80d424dca" id="../resources/96240dab74c849d188a959659118f9b80d424dca" media-type="image/gif" properties="mathml scripted"/><item href="example-pancake-sort-976a9280-bf09-42af-b31e-56b5fdeaa421.html" id="example-pancake-sort-976a9280-bf09-42af-b31e-56b5fdeaa421.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
+  </manifest>
+
+
+
+
+  <manifest>
+  <item href="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" id="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" media-type="image/png" properties="mathml scripted"/><item href="karatsuba-multiplication-9071a2c5-c668-4879-b23b-6870a72746b9.html" id="karatsuba-multiplication-9071a2c5-c668-4879-b23b-6870a72746b9.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
+  </manifest>
+
+
+  <manifest>
+  <item href="rabin-karp-algorithm-for-string-matching-ab4ec736-fca8-4764-953c-f94110c623ff.html" id="rabin-karp-algorithm-for-string-matching-ab4ec736-fca8-4764-953c-f94110c623ff.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
+  </manifest>
+
+  <manifest>
+  <item href="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" id="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" media-type="image/png" properties="mathml scripted"/><item href="akashanuj1010342210103424-8c718cd8-07e6-4ebc-9bc6-ef0e4880fbc5.html" id="akashanuj1010342210103424-8c718cd8-07e6-4ebc-9bc6-ef0e4880fbc5.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="akash10103422-d6f02fbe-379d-4eec-9c21-3aaaf86e5fc4.html" id="akash10103422-d6f02fbe-379d-4eec-9c21-3aaaf86e5fc4.html" media-type="application/xhtml+xml" properties="mathml scripted"/></manifest>
+  <manifest>
+  <item href="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" id="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" media-type="image/png" properties="mathml scripted"/><item href="sieve-of-eratosthenes-8db21b6d-643a-41de-b53d-0d92a8a15490.html" id="sieve-of-eratosthenes-8db21b6d-643a-41de-b53d-0d92a8a15490.html" media-type="application/xhtml+xml" properties="mathml scripted"/></manifest>
+
+
+  <manifest>
+  <item href="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" id="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" media-type="image/png" properties="mathml scripted"/><item href="fr-b108ad76-b079-4e3f-8f3f-aea66dbb0e69.html" id="fr-b108ad76-b079-4e3f-8f3f-aea66dbb0e69.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="dfs-d127ca1b-937d-42a4-bf65-ff8fc367aad7.html" id="dfs-d127ca1b-937d-42a4-bf65-ff8fc367aad7.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="bfs-e6742398-a6b7-4e7e-98da-def65c5b6a04.html" id="bfs-e6742398-a6b7-4e7e-98da-def65c5b6a04.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="dfs1-81676446-58e4-4471-87b4-adfa98fce09c.html" id="dfs1-81676446-58e4-4471-87b4-adfa98fce09c.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="timsort-14c0dab0-1694-4462-a475-124c75065db9.html" id="timsort-14c0dab0-1694-4462-a475-124c75065db9.html" media-type="application/xhtml+xml" properties="mathml scripted"/></manifest>
+
+
+  <manifest>
+  <item href="untitled-e94bce6c-da52-4a5e-9552-b4c82a8d91b9.html" id="untitled-e94bce6c-da52-4a5e-9552-b4c82a8d91b9.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="untitled-9b1b383f-5c66-46c6-99be-d2621b8a93d9.html" id="untitled-9b1b383f-5c66-46c6-99be-d2621b8a93d9.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="dijkstras-algorithm-85f3cce0-20fe-45d8-9950-4cc2e70726d7.html" id="dijkstras-algorithm-85f3cce0-20fe-45d8-9950-4cc2e70726d7.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="bubble-sort-2ed63f07-288c-4761-a8ad-2d9a9e32c5b1.html" id="bubble-sort-2ed63f07-288c-4761-a8ad-2d9a9e32c5b1.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/2a340b3a06b3fe57fc64c18478b70ec5c5193cf6" id="../resources/2a340b3a06b3fe57fc64c18478b70ec5c5193cf6" media-type="image/gif" properties="mathml scripted"/><item href="bubble-sort-fa638b4a-30ef-454c-8030-a197bb34e18c.html" id="bubble-sort-fa638b4a-30ef-454c-8030-a197bb34e18c.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
+  </manifest>
+  <manifest>
+  <item href="backtracking-algorithm-e0db35a5-80a1-49a4-bde4-38152c3259c3.html" id="backtracking-algorithm-e0db35a5-80a1-49a4-bde4-38152c3259c3.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="backtracking-algorithm-using-n-queen-as-an-example-10a2a410-0900-4df8-bfdc-d68c2497b388.html" id="backtracking-algorithm-using-n-queen-as-an-example-10a2a410-0900-4df8-bfdc-d68c2497b388.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/c0eed9d11a14e8a32925be7d990c3fffb6dab56c" id="../resources/c0eed9d11a14e8a32925be7d990c3fffb6dab56c" media-type="image/gif" properties="mathml scripted"/><item href="../resources/1be7a14e362a19f8fc39c874c0943fb164597208" id="../resources/1be7a14e362a19f8fc39c874c0943fb164597208" media-type="image/gif" properties="mathml scripted"/>
+  </manifest>
+
+  <manifest>
+
+  <item href="untitled-8096308c-32e6-4d4b-abfe-30c828034136.html" id="untitled-8096308c-32e6-4d4b-abfe-30c828034136.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="counting-sort-and-heap-sort-c170d59b-6ddd-4a20-8428-305ad971d267.html" id="counting-sort-and-heap-sort-c170d59b-6ddd-4a20-8428-305ad971d267.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/8cb5f685f0ad4a606b01d5088270fa9959f2f600.png" id="../resources/8cb5f685f0ad4a606b01d5088270fa9959f2f600.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/f1901acaded141619e2db014faf5e8cbef186984.png" id="../resources/f1901acaded141619e2db014faf5e8cbef186984.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/9a9685e54a0c92959740246c34bf830084532451.png" id="../resources/9a9685e54a0c92959740246c34bf830084532451.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/4835db7f36c211fcba95b24cd059f30a636908a4.png" id="../resources/4835db7f36c211fcba95b24cd059f30a636908a4.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/4f74bc68fff12a983072742df4fa8615d989a606.png" id="../resources/4f74bc68fff12a983072742df4fa8615d989a606.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/ad8845064a9977add5d9d4d06344ec4be16a7d3d.png" id="../resources/ad8845064a9977add5d9d4d06344ec4be16a7d3d.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/3bf39a63fd107d92b3bc6380209e206f9ab36fe4.png" id="../resources/3bf39a63fd107d92b3bc6380209e206f9ab36fe4.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/fee0d9c7fb1cc8ea2c549844b8229c7880aa0673.png" id="../resources/fee0d9c7fb1cc8ea2c549844b8229c7880aa0673.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/1bbc25239c17b79867154863bccb528c350bc2d2.png" id="../resources/1bbc25239c17b79867154863bccb528c350bc2d2.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/2877604285fb71405c7cd8ba346706bdce963f4c.png" id="../resources/2877604285fb71405c7cd8ba346706bdce963f4c.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/192d0563f5763cb96a50325e8e2ea0d91a9c8788.png" id="../resources/192d0563f5763cb96a50325e8e2ea0d91a9c8788.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/d58ec08d9ffd96b943b005326898e6cf1342246c.png" id="../resources/d58ec08d9ffd96b943b005326898e6cf1342246c.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/fd04fcf6b8ef0de0b586db5416527aca0242d2ad.png" id="../resources/fd04fcf6b8ef0de0b586db5416527aca0242d2ad.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/be8033f9d94fd8e9155be29cbe24ea263a1b4c99.png" id="../resources/be8033f9d94fd8e9155be29cbe24ea263a1b4c99.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/3313a8538f498197ea71afede2351ec925617e3e.png" id="../resources/3313a8538f498197ea71afede2351ec925617e3e.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/5e93ed73530c8270749c712f0be6de0fb38d6e2a.png" id="../resources/5e93ed73530c8270749c712f0be6de0fb38d6e2a.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/911caf654db2444f48df1441b7391d3fa5cf2b11.png" id="../resources/911caf654db2444f48df1441b7391d3fa5cf2b11.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/5ed8dfa0a3dd3f3d65766b5f0439a7a8bf69b734.png" id="../resources/5ed8dfa0a3dd3f3d65766b5f0439a7a8bf69b734.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/c18ad6972f1790bd606c77cf5e2f1f5e2a7a64f4.png" id="../resources/c18ad6972f1790bd606c77cf5e2f1f5e2a7a64f4.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/560866def4e14a49fbcb08cfbba819b738eea04e.png" id="../resources/560866def4e14a49fbcb08cfbba819b738eea04e.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/aa77f37a98a979276a88df64a7eae7b5d1033bdd.png" id="../resources/aa77f37a98a979276a88df64a7eae7b5d1033bdd.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/aeb747265493e32f005579a104aa10f40d4796a4.png" id="../resources/aeb747265493e32f005579a104aa10f40d4796a4.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/1b01cd9680b5abf7b32ff370e87dd77764daae6c.png" id="../resources/1b01cd9680b5abf7b32ff370e87dd77764daae6c.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/cbd2f79cdc7e8ac35357229361c3354666d4b13a.png" id="../resources/cbd2f79cdc7e8ac35357229361c3354666d4b13a.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/7d582a438b1bd5d86d5d4515ca62f0ef32713005.png" id="../resources/7d582a438b1bd5d86d5d4515ca62f0ef32713005.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/f9a9ab16d60b95d4059706679cbc24644b91dca8.png" id="../resources/f9a9ab16d60b95d4059706679cbc24644b91dca8.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/46019f13ed048999a8889d201c79d25d0883e4bc.png" id="../resources/46019f13ed048999a8889d201c79d25d0883e4bc.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/6f98b056f115e56ae2c75426b0a5b2d495951d54.png" id="../resources/6f98b056f115e56ae2c75426b0a5b2d495951d54.png" media-type="image/png" properties="mathml scripted"/>
+  </manifest>
+
+  <manifest>
+  <item href="untitled-b719143c-76a5-4ce3-912f-9960d937a98b.html" id="untitled-b719143c-76a5-4ce3-912f-9960d937a98b.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="bubble-sort-7fd707c6-fe11-4af6-9446-c9766dd79eef.html" id="bubble-sort-7fd707c6-fe11-4af6-9446-c9766dd79eef.html" media-type="application/xhtml+xml" properties="mathml scripted"/></manifest>
+
+  <manifest>
+  <item href="quicksort-45cf6726-ecaf-4379-b0ef-00c8d8dea2f4.html" id="quicksort-45cf6726-ecaf-4379-b0ef-00c8d8dea2f4.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="radix-abb0ca4c-0bba-4b65-9b9e-179f7a6272a3.html" id="radix-abb0ca4c-0bba-4b65-9b9e-179f7a6272a3.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="shellsort-3f12dccd-d558-421a-be68-72913c8976a3.html" id="shellsort-3f12dccd-d558-421a-be68-72913c8976a3.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
+  </manifest>
+
+  <manifest>
+  <item href="untitled-728e897a-3bfd-4aaa-a413-ad1636896b5a.html" id="untitled-728e897a-3bfd-4aaa-a413-ad1636896b5a.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="bankers-algorithm-b9696233-497c-4364-a5f3-5adba4416a61.html" id="bankers-algorithm-b9696233-497c-4364-a5f3-5adba4416a61.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/d340b876b443081d6ef36849ffe9c00fc1540455.jpg" id="../resources/d340b876b443081d6ef36849ffe9c00fc1540455.jpg" media-type="image/jpeg" properties="mathml scripted"/><item href="../resources/85a39a0d2c28528fedfabf2451fad4ab03d8d6ef.jpg" id="../resources/85a39a0d2c28528fedfabf2451fad4ab03d8d6ef.jpg" media-type="image/jpeg" properties="mathml scripted"/><item href="../resources/384ea319af000e8f4ecd753782ef63676b7936eb.jpg" id="../resources/384ea319af000e8f4ecd753782ef63676b7936eb.jpg" media-type="image/jpeg" properties="mathml scripted"/><item href="../resources/b2da8c34865c5435f4d3336468ba9e29416fd016.jpg" id="../resources/b2da8c34865c5435f4d3336468ba9e29416fd016.jpg" media-type="image/jpeg" properties="mathml scripted"/><item href="../resources/8ec4eee51c529eb6eb34c1bcb10858ae8795179d.jpg" id="../resources/8ec4eee51c529eb6eb34c1bcb10858ae8795179d.jpg" media-type="image/jpeg" properties="mathml scripted"/><item href="../resources/f2275e355904df216410d0673ab4105e2ab3b962.jpg" id="../resources/f2275e355904df216410d0673ab4105e2ab3b962.jpg" media-type="image/jpeg" properties="mathml scripted"/><item href="floyd-warshall-algorithm-80307706-dfa8-4d43-9cf1-425855c0ad49.html" id="floyd-warshall-algorithm-80307706-dfa8-4d43-9cf1-425855c0ad49.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="floyd-warshall-algorithm-13785675-4242-4108-9cdf-2cccd5619969.html" id="floyd-warshall-algorithm-13785675-4242-4108-9cdf-2cccd5619969.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/a9dd29f09dd2178ff2415705a196bacd0482ba65.jpg" id="../resources/a9dd29f09dd2178ff2415705a196bacd0482ba65.jpg" media-type="image/jpeg" properties="mathml scripted"/><item href="../resources/895799cbc8543c8884afee1181f18e242e952368.jpg" id="../resources/895799cbc8543c8884afee1181f18e242e952368.jpg" media-type="image/jpeg" properties="mathml scripted"/><item href="../resources/5c2303c70f3dc0466a0e50f13747fdc41feee5e2.jpg" id="../resources/5c2303c70f3dc0466a0e50f13747fdc41feee5e2.jpg" media-type="image/jpeg" properties="mathml scripted"/>
+  </manifest>
+
+  <manifest>
+  <item href="untitled-cdbc4420-df42-4cad-a872-aea9a2f0dfea.html" id="untitled-cdbc4420-df42-4cad-a872-aea9a2f0dfea.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="huffman-lcs-prims-595291d2-32b0-44fe-a19f-ad204a3a2743.html" id="huffman-lcs-prims-595291d2-32b0-44fe-a19f-ad204a3a2743.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/3f789c0282f926994c27478a49582cebabadc202.png" id="../resources/3f789c0282f926994c27478a49582cebabadc202.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/1e22c7708e2f1442984e1e3179a4d3065dd41766.png" id="../resources/1e22c7708e2f1442984e1e3179a4d3065dd41766.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/84b01c0123a6e5c8092271ea9df63cb7fff4cd8c.png" id="../resources/84b01c0123a6e5c8092271ea9df63cb7fff4cd8c.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/4d0bfdb1582228fcb2d1c8c7f0e269e146350ae9.png" id="../resources/4d0bfdb1582228fcb2d1c8c7f0e269e146350ae9.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/3bb99503342f69566b817ba28b29037f5d7c768f.png" id="../resources/3bb99503342f69566b817ba28b29037f5d7c768f.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/0aee2692788ecad1649011c9f5366438d64680d6.png" id="../resources/0aee2692788ecad1649011c9f5366438d64680d6.png" media-type="image/png" properties="mathml scripted"/></manifest>
+
+  <manifest><item href="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" id="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" media-type="image/png" properties="mathml scripted"/><item href="round-robin-and-k-means-d068a511-603a-4498-a974-629d6706d219.html" id="round-robin-and-k-means-d068a511-603a-4498-a974-629d6706d219.html" media-type="application/xhtml+xml" properties="mathml scripted"/></manifest>
+
+
+  <manifest>
+  <item href="knuth-morris-pratt-algorithm-edcfe139-9410-4b35-ba55-9aa2825d3436.html" id="knuth-morris-pratt-algorithm-edcfe139-9410-4b35-ba55-9aa2825d3436.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="knuth-morris-pratt-algorithm-2c240b77-9bb6-413d-8f67-093f62bbbf22.html" id="knuth-morris-pratt-algorithm-2c240b77-9bb6-413d-8f67-093f62bbbf22.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="knuth-morris-pratt-algorithm-e791b975-3684-4d0c-91f3-20145a0a9583.html" id="knuth-morris-pratt-algorithm-e791b975-3684-4d0c-91f3-20145a0a9583.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="iipublic-key-cryptography-a9a965b8-e88d-4ef5-b743-49519ff8563d.html" id="iipublic-key-cryptography-a9a965b8-e88d-4ef5-b743-49519ff8563d.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="public-key-cryptography-d2869ae5-e8fc-4775-9f33-6e508fa53057.html" id="public-key-cryptography-d2869ae5-e8fc-4775-9f33-6e508fa53057.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="public-key-cryptography-38dbba14-7372-47c8-876d-dac5cea7b5f9.html" id="public-key-cryptography-38dbba14-7372-47c8-876d-dac5cea7b5f9.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/a057053597823fa4a8ee7e4bdb9a7d6970648eaa.png" id="../resources/a057053597823fa4a8ee7e4bdb9a7d6970648eaa.png" media-type="image/png" properties="mathml scripted"/><item href="public-key-cryptography-1d79c101-bdc2-4ada-8e6d-7d8d9c9e77e3.html" id="public-key-cryptography-1d79c101-bdc2-4ada-8e6d-7d8d9c9e77e3.html" media-type="application/xhtml+xml" properties="mathml scripted"/></manifest>
+
+
+  
+
+
+
+
+
+
+
+
+<manifest>
+  <item href="lru-and-merge-sort-4e5318d1-bfef-4a21-846d-777f031d9cb5.html" id="lru-and-merge-sort-4e5318d1-bfef-4a21-846d-777f031d9cb5.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/b00608899759f15cb1ec439bbfc684cad711ef86.png" id="../resources/b00608899759f15cb1ec439bbfc684cad711ef86.png" media-type="image/png" properties="mathml scripted"/>
+  </manifest>
+  <manifest>
+  <item href="bin-packing-algorithm-0d28741d-69b5-4ef6-88dc-aecc29e92979.html" id="bin-packing-algorithm-0d28741d-69b5-4ef6-88dc-aecc29e92979.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/f13927ce9788775532a60cdc8ed5516accadfc21.jpg" id="../resources/f13927ce9788775532a60cdc8ed5516accadfc21.jpg" media-type="image/jpeg" properties="mathml scripted"/>
+  </manifest>
+
+
+  <manifest>
+  <item href="insertion-sort-and-binary-search-thought-process-3e2c8257-9d88-4975-b37f-82002d2bd61a.html" id="insertion-sort-and-binary-search-thought-process-3e2c8257-9d88-4975-b37f-82002d2bd61a.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
+  </manifest>
+
+  <manifest>
+  <item href="untitled-4ae05130-8eed-45ef-99a5-4ba2bc2fca62.html" id="untitled-4ae05130-8eed-45ef-99a5-4ba2bc2fca62.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="hashing-algorithm-60b9a88e-9d9b-4e08-beeb-2a8855e54b50.html" id="hashing-algorithm-60b9a88e-9d9b-4e08-beeb-2a8855e54b50.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="hashing-algorithm-88a0b329-2e09-4982-9aa1-7adca1c58768.html" id="hashing-algorithm-88a0b329-2e09-4982-9aa1-7adca1c58768.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
+  </manifest>
+  <manifest>
+  <item href="untitled-4ca4a390-41b0-43c6-9556-4b3cbf4816a2.html" id="untitled-4ca4a390-41b0-43c6-9556-4b3cbf4816a2.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="algorithm-for-uuid--57005532-2973-4b33-b7d4-65801143809a.html" id="algorithm-for-uuid--57005532-2973-4b33-b7d4-65801143809a.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
+  </manifest>
+
+  <manifest>
+  <item href="untitled-b6703320-05d2-4929-a963-613057baf758.html" id="untitled-b6703320-05d2-4929-a963-613057baf758.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="untitled-ea3291b7-5623-4008-877c-cb712dbe6d30.html" id="untitled-ea3291b7-5623-4008-877c-cb712dbe6d30.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="josephus-flavius-problem-ca759a4d-2546-4acd-99c9-c62a742dc063.html" id="josephus-flavius-problem-ca759a4d-2546-4acd-99c9-c62a742dc063.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="josephus-flavius-problem-abddfeb0-5d15-46c9-913b-7ab7c527a575.html" id="josephus-flavius-problem-abddfeb0-5d15-46c9-913b-7ab7c527a575.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
+  </manifest>
+  <manifest><item href="untitled-88c94aa3-3af7-4ca0-a245-3a558c3cf387.html" id="untitled-88c94aa3-3af7-4ca0-a245-3a558c3cf387.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="untitled-fa5fc35c-9bc6-4a8b-9ccc-774f2e9c245b.html" id="untitled-fa5fc35c-9bc6-4a8b-9ccc-774f2e9c245b.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="untitled-9c0e109d-7be4-44a2-b3db-97fbfbd265d6.html" id="untitled-9c0e109d-7be4-44a2-b3db-97fbfbd265d6.html" media-type="application/xhtml+xml" properties="mathml scripted"/></manifest>
+  <manifest>
+  <item href="randomized-quick-sort-ef9b75a8-d4bc-491a-b1be-71d397607b7a.html" id="randomized-quick-sort-ef9b75a8-d4bc-491a-b1be-71d397607b7a.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="randomized-quick-sort-fbf82129-9ade-47c2-b1c7-95f877061b7d.html" id="randomized-quick-sort-fbf82129-9ade-47c2-b1c7-95f877061b7d.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
+  </manifest>
+  <manifest>
+  <item href="untitled-2ecda6e6-4786-4f8c-9d11-aafe8e037f6d.html" id="untitled-2ecda6e6-4786-4f8c-9d11-aafe8e037f6d.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="apriori-algorithm-8361992b-45bb-444d-b4e2-e173e6a12266.html" id="apriori-algorithm-8361992b-45bb-444d-b4e2-e173e6a12266.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="untitled-a4d10465-9233-40d0-b81c-81ac35f6e5c0.html" id="untitled-a4d10465-9233-40d0-b81c-81ac35f6e5c0.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
+  </manifest>
 
 
   <spine>
@@ -49,8 +163,7 @@
 
 
 
-  <manifest>
-  <item href="lamports-algorithm-8d8d78d9-da49-43c9-942e-23a8102b8042.html" id="lamports-algorithm-8d8d78d9-da49-43c9-942e-23a8102b8042.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/86c9d8adc71100405bc7319e1cb263f6e1985031.png" id="../resources/86c9d8adc71100405bc7319e1cb263f6e1985031.png" media-type="image/png" properties="mathml scripted"/></manifest>
+
 
 
   <spine>
@@ -60,12 +173,8 @@
 
 
 
-  <manifest>
 
-  
-  <item href="demo-4e922b87-64ab-4cf9-bf66-ff8932d921b5.html" id="demo-4e922b87-64ab-4cf9-bf66-ff8932d921b5.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="naive-bayes-classifier-algorithm--dc56e1ca-b677-4d67-af24-5fb61799ae2f.html" id="naive-bayes-classifier-algorithm--dc56e1ca-b677-4d67-af24-5fb61799ae2f.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
-  <item href="navie-bayesian-classifier-algorithm-5dac4168-ead8-48e5-bb9d-a2d5c1ea78e3.html" id="navie-bayesian-classifier-algorithm-5dac4168-ead8-48e5-bb9d-a2d5c1ea78e3.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
-  <item href="../resources/25c7345cfe49055bf5538610afa204998b47267c" id="../resources/25c7345cfe49055bf5538610afa204998b47267c" media-type="" properties="mathml scripted"/><item href="../resources/5d9a74d9744b42031391fde4da983e8f8670d758.png" id="../resources/5d9a74d9744b42031391fde4da983e8f8670d758.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/f962b1d36fc2829fa29789a6ab96e73543881ad0.png" id="../resources/f962b1d36fc2829fa29789a6ab96e73543881ad0.png" media-type="image/png" properties="mathml scripted"/></manifest>
+
 
 
   <spine>
@@ -84,34 +193,28 @@
 
 
 
-  <manifest>
-  <item href="lamports-algorithm-8d8d78d9-da49-43c9-942e-23a8102b8042.html" id="lamports-algorithm-8d8d78d9-da49-43c9-942e-23a8102b8042.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/86c9d8adc71100405bc7319e1cb263f6e1985031.png" id="../resources/86c9d8adc71100405bc7319e1cb263f6e1985031.png" media-type="image/png" properties="mathml scripted"/></manifest>
 
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="lamports-algorithm-8d8d78d9-da49-43c9-942e-23a8102b8042.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref></spine>
 
 
-  <manifest>
-  <item href="naive-bayes-classifier-algorithm--dc56e1ca-b677-4d67-af24-5fb61799ae2f.html" id="naive-bayes-classifier-algorithm--dc56e1ca-b677-4d67-af24-5fb61799ae2f.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="navie-bayesian-classifier-algorithm-5dac4168-ead8-48e5-bb9d-a2d5c1ea78e3.html" id="navie-bayesian-classifier-algorithm-5dac4168-ead8-48e5-bb9d-a2d5c1ea78e3.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/25c7345cfe49055bf5538610afa204998b47267c" id="../resources/25c7345cfe49055bf5538610afa204998b47267c" media-type="" properties="mathml scripted"/><item href="../resources/5d9a74d9744b42031391fde4da983e8f8670d758.png" id="../resources/5d9a74d9744b42031391fde4da983e8f8670d758.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/f962b1d36fc2829fa29789a6ab96e73543881ad0.png" id="../resources/f962b1d36fc2829fa29789a6ab96e73543881ad0.png" media-type="image/png" properties="mathml scripted"/>
-  </manifest>
+  
+
+
+
 
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="naive-bayes-classifier-algorithm--dc56e1ca-b677-4d67-af24-5fb61799ae2f.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref></spine>
 
 
 
-  <manifest>
-  <item href="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" id="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" media-type="image/png" properties="mathml scripted"/><item href="huangs-termination-detectionbellman-fordtoken-ring--949aab29-71c9-4dd0-b132-da6843aec80f.html" id="huangs-termination-detectionbellman-fordtoken-ring--949aab29-71c9-4dd0-b132-da6843aec80f.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
-  </manifest>
-
   <spine>
   <itemref xmlns="http://www.w3.org/1999/xhtml" idref="huangs-termination-detectionbellman-fordtoken-ring--949aab29-71c9-4dd0-b132-da6843aec80f.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref></spine>
 
 
 
-  <manifest>
-  <item href="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" id="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" media-type="image/png" properties="mathml scripted"/><item href="example-selection-sort-a289c27d-d4ce-4e15-9c01-95cf495993d8.html" id="example-selection-sort-a289c27d-d4ce-4e15-9c01-95cf495993d8.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/96240dab74c849d188a959659118f9b80d424dca" id="../resources/96240dab74c849d188a959659118f9b80d424dca" media-type="image/gif" properties="mathml scripted"/><item href="example-pancake-sort-976a9280-bf09-42af-b31e-56b5fdeaa421.html" id="example-pancake-sort-976a9280-bf09-42af-b31e-56b5fdeaa421.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
-  </manifest>
+
+
 
 
 
@@ -120,9 +223,7 @@
 
 
 
-  <manifest>
-  <item href="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" id="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" media-type="image/png" properties="mathml scripted"/><item href="karatsuba-multiplication-9071a2c5-c668-4879-b23b-6870a72746b9.html" id="karatsuba-multiplication-9071a2c5-c668-4879-b23b-6870a72746b9.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
-  </manifest>
+  
 
   <spine>
   <itemref xmlns="http://www.w3.org/1999/xhtml" idref="karatsuba-multiplication-9071a2c5-c668-4879-b23b-6870a72746b9.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref></spine>
@@ -130,17 +231,16 @@
 
 
 
-  <manifest>
-  <item href="rabin-karp-algorithm-for-string-matching-ab4ec736-fca8-4764-953c-f94110c623ff.html" id="rabin-karp-algorithm-for-string-matching-ab4ec736-fca8-4764-953c-f94110c623ff.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
-  </manifest>
+
 
   <spine>
   <itemref xmlns="http://www.w3.org/1999/xhtml" idref="rabin-karp-algorithm-for-string-matching-ab4ec736-fca8-4764-953c-f94110c623ff.html"></itemref>
   <itemref xmlns="http://www.w3.org/1999/xhtml" idref="karatsuba-multiplication-9071a2c5-c668-4879-b23b-6870a72746b9.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref>
   <itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref></spine>
 
-  <manifest>
-  <item href="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" id="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" media-type="image/png" properties="mathml scripted"/><item href="akashanuj1010342210103424-8c718cd8-07e6-4ebc-9bc6-ef0e4880fbc5.html" id="akashanuj1010342210103424-8c718cd8-07e6-4ebc-9bc6-ef0e4880fbc5.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="akash10103422-d6f02fbe-379d-4eec-9c21-3aaaf86e5fc4.html" id="akash10103422-d6f02fbe-379d-4eec-9c21-3aaaf86e5fc4.html" media-type="application/xhtml+xml" properties="mathml scripted"/></manifest>
+
+
+
 
   <spine>
   <itemref xmlns="http://www.w3.org/1999/xhtml" idref="akash10103422-d6f02fbe-379d-4eec-9c21-3aaaf86e5fc4.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref>
@@ -151,68 +251,63 @@
   <itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref></spine>
 
 
-  <manifest>
-  <item href="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" id="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" media-type="image/png" properties="mathml scripted"/><item href="sieve-of-eratosthenes-8db21b6d-643a-41de-b53d-0d92a8a15490.html" id="sieve-of-eratosthenes-8db21b6d-643a-41de-b53d-0d92a8a15490.html" media-type="application/xhtml+xml" properties="mathml scripted"/></manifest>
+
 
 
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="sieve-of-eratosthenes-8db21b6d-643a-41de-b53d-0d92a8a15490.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref></spine>
 
 
-  <manifest>
-  <item href="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" id="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" media-type="image/png" properties="mathml scripted"/><item href="fr-b108ad76-b079-4e3f-8f3f-aea66dbb0e69.html" id="fr-b108ad76-b079-4e3f-8f3f-aea66dbb0e69.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="dfs-d127ca1b-937d-42a4-bf65-ff8fc367aad7.html" id="dfs-d127ca1b-937d-42a4-bf65-ff8fc367aad7.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="bfs-e6742398-a6b7-4e7e-98da-def65c5b6a04.html" id="bfs-e6742398-a6b7-4e7e-98da-def65c5b6a04.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="dfs1-81676446-58e4-4471-87b4-adfa98fce09c.html" id="dfs1-81676446-58e4-4471-87b4-adfa98fce09c.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="timsort-14c0dab0-1694-4462-a475-124c75065db9.html" id="timsort-14c0dab0-1694-4462-a475-124c75065db9.html" media-type="application/xhtml+xml" properties="mathml scripted"/></manifest>
+
+
+
+
+
+
+
 
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="dfs-d127ca1b-937d-42a4-bf65-ff8fc367aad7.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="timsort-14c0dab0-1694-4462-a475-124c75065db9.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="dfs1-81676446-58e4-4471-87b4-adfa98fce09c.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="fr-b108ad76-b079-4e3f-8f3f-aea66dbb0e69.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref></spine>
 
 
 
-  <manifest>
-  <item href="untitled-e94bce6c-da52-4a5e-9552-b4c82a8d91b9.html" id="untitled-e94bce6c-da52-4a5e-9552-b4c82a8d91b9.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="untitled-9b1b383f-5c66-46c6-99be-d2621b8a93d9.html" id="untitled-9b1b383f-5c66-46c6-99be-d2621b8a93d9.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="dijkstras-algorithm-85f3cce0-20fe-45d8-9950-4cc2e70726d7.html" id="dijkstras-algorithm-85f3cce0-20fe-45d8-9950-4cc2e70726d7.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="bubble-sort-2ed63f07-288c-4761-a8ad-2d9a9e32c5b1.html" id="bubble-sort-2ed63f07-288c-4761-a8ad-2d9a9e32c5b1.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/2a340b3a06b3fe57fc64c18478b70ec5c5193cf6" id="../resources/2a340b3a06b3fe57fc64c18478b70ec5c5193cf6" media-type="image/gif" properties="mathml scripted"/><item href="bubble-sort-fa638b4a-30ef-454c-8030-a197bb34e18c.html" id="bubble-sort-fa638b4a-30ef-454c-8030-a197bb34e18c.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
-  </manifest>
 
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="bubble-sort-fa638b4a-30ef-454c-8030-a197bb34e18c.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="dijkstras-algorithm-85f3cce0-20fe-45d8-9950-4cc2e70726d7.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref></spine>
 
 
 
-  <manifest>
-  <item href="backtracking-algorithm-e0db35a5-80a1-49a4-bde4-38152c3259c3.html" id="backtracking-algorithm-e0db35a5-80a1-49a4-bde4-38152c3259c3.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="backtracking-algorithm-using-n-queen-as-an-example-10a2a410-0900-4df8-bfdc-d68c2497b388.html" id="backtracking-algorithm-using-n-queen-as-an-example-10a2a410-0900-4df8-bfdc-d68c2497b388.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/c0eed9d11a14e8a32925be7d990c3fffb6dab56c" id="../resources/c0eed9d11a14e8a32925be7d990c3fffb6dab56c" media-type="image/gif" properties="mathml scripted"/><item href="../resources/1be7a14e362a19f8fc39c874c0943fb164597208" id="../resources/1be7a14e362a19f8fc39c874c0943fb164597208" media-type="image/gif" properties="mathml scripted"/>
-  </manifest>
-
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="backtracking-algorithm-using-n-queen-as-an-example-10a2a410-0900-4df8-bfdc-d68c2497b388.html"></itemref></spine>
 
 
 
-  <manifest>
 
-  <item href="untitled-8096308c-32e6-4d4b-abfe-30c828034136.html" id="untitled-8096308c-32e6-4d4b-abfe-30c828034136.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="counting-sort-and-heap-sort-c170d59b-6ddd-4a20-8428-305ad971d267.html" id="counting-sort-and-heap-sort-c170d59b-6ddd-4a20-8428-305ad971d267.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/8cb5f685f0ad4a606b01d5088270fa9959f2f600.png" id="../resources/8cb5f685f0ad4a606b01d5088270fa9959f2f600.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/f1901acaded141619e2db014faf5e8cbef186984.png" id="../resources/f1901acaded141619e2db014faf5e8cbef186984.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/9a9685e54a0c92959740246c34bf830084532451.png" id="../resources/9a9685e54a0c92959740246c34bf830084532451.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/4835db7f36c211fcba95b24cd059f30a636908a4.png" id="../resources/4835db7f36c211fcba95b24cd059f30a636908a4.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/4f74bc68fff12a983072742df4fa8615d989a606.png" id="../resources/4f74bc68fff12a983072742df4fa8615d989a606.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/ad8845064a9977add5d9d4d06344ec4be16a7d3d.png" id="../resources/ad8845064a9977add5d9d4d06344ec4be16a7d3d.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/3bf39a63fd107d92b3bc6380209e206f9ab36fe4.png" id="../resources/3bf39a63fd107d92b3bc6380209e206f9ab36fe4.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/fee0d9c7fb1cc8ea2c549844b8229c7880aa0673.png" id="../resources/fee0d9c7fb1cc8ea2c549844b8229c7880aa0673.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/1bbc25239c17b79867154863bccb528c350bc2d2.png" id="../resources/1bbc25239c17b79867154863bccb528c350bc2d2.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/2877604285fb71405c7cd8ba346706bdce963f4c.png" id="../resources/2877604285fb71405c7cd8ba346706bdce963f4c.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/192d0563f5763cb96a50325e8e2ea0d91a9c8788.png" id="../resources/192d0563f5763cb96a50325e8e2ea0d91a9c8788.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/d58ec08d9ffd96b943b005326898e6cf1342246c.png" id="../resources/d58ec08d9ffd96b943b005326898e6cf1342246c.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/fd04fcf6b8ef0de0b586db5416527aca0242d2ad.png" id="../resources/fd04fcf6b8ef0de0b586db5416527aca0242d2ad.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/be8033f9d94fd8e9155be29cbe24ea263a1b4c99.png" id="../resources/be8033f9d94fd8e9155be29cbe24ea263a1b4c99.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/3313a8538f498197ea71afede2351ec925617e3e.png" id="../resources/3313a8538f498197ea71afede2351ec925617e3e.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/5e93ed73530c8270749c712f0be6de0fb38d6e2a.png" id="../resources/5e93ed73530c8270749c712f0be6de0fb38d6e2a.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/911caf654db2444f48df1441b7391d3fa5cf2b11.png" id="../resources/911caf654db2444f48df1441b7391d3fa5cf2b11.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/5ed8dfa0a3dd3f3d65766b5f0439a7a8bf69b734.png" id="../resources/5ed8dfa0a3dd3f3d65766b5f0439a7a8bf69b734.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/c18ad6972f1790bd606c77cf5e2f1f5e2a7a64f4.png" id="../resources/c18ad6972f1790bd606c77cf5e2f1f5e2a7a64f4.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/560866def4e14a49fbcb08cfbba819b738eea04e.png" id="../resources/560866def4e14a49fbcb08cfbba819b738eea04e.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/aa77f37a98a979276a88df64a7eae7b5d1033bdd.png" id="../resources/aa77f37a98a979276a88df64a7eae7b5d1033bdd.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/aeb747265493e32f005579a104aa10f40d4796a4.png" id="../resources/aeb747265493e32f005579a104aa10f40d4796a4.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/1b01cd9680b5abf7b32ff370e87dd77764daae6c.png" id="../resources/1b01cd9680b5abf7b32ff370e87dd77764daae6c.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/cbd2f79cdc7e8ac35357229361c3354666d4b13a.png" id="../resources/cbd2f79cdc7e8ac35357229361c3354666d4b13a.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/7d582a438b1bd5d86d5d4515ca62f0ef32713005.png" id="../resources/7d582a438b1bd5d86d5d4515ca62f0ef32713005.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/f9a9ab16d60b95d4059706679cbc24644b91dca8.png" id="../resources/f9a9ab16d60b95d4059706679cbc24644b91dca8.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/46019f13ed048999a8889d201c79d25d0883e4bc.png" id="../resources/46019f13ed048999a8889d201c79d25d0883e4bc.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/6f98b056f115e56ae2c75426b0a5b2d495951d54.png" id="../resources/6f98b056f115e56ae2c75426b0a5b2d495951d54.png" media-type="image/png" properties="mathml scripted"/>
-  </manifest>
+
+
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="counting-sort-and-heap-sort-c170d59b-6ddd-4a20-8428-305ad971d267.html"></itemref></spine>
 
 
 
-  <manifest>
-  <item href="untitled-b719143c-76a5-4ce3-912f-9960d937a98b.html" id="untitled-b719143c-76a5-4ce3-912f-9960d937a98b.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="bubble-sort-7fd707c6-fe11-4af6-9446-c9766dd79eef.html" id="bubble-sort-7fd707c6-fe11-4af6-9446-c9766dd79eef.html" media-type="application/xhtml+xml" properties="mathml scripted"/></manifest>
+
+
 
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="bubble-sort-7fd707c6-fe11-4af6-9446-c9766dd79eef.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref></spine>
 
 
 
-  <manifest>
-  <item href="quicksort-45cf6726-ecaf-4379-b0ef-00c8d8dea2f4.html" id="quicksort-45cf6726-ecaf-4379-b0ef-00c8d8dea2f4.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="radix-abb0ca4c-0bba-4b65-9b9e-179f7a6272a3.html" id="radix-abb0ca4c-0bba-4b65-9b9e-179f7a6272a3.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="shellsort-3f12dccd-d558-421a-be68-72913c8976a3.html" id="shellsort-3f12dccd-d558-421a-be68-72913c8976a3.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
-  </manifest>
+
+
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="quicksort-45cf6726-ecaf-4379-b0ef-00c8d8dea2f4.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="shellsort-3f12dccd-d558-421a-be68-72913c8976a3.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="radix-abb0ca4c-0bba-4b65-9b9e-179f7a6272a3.html"></itemref></spine>
 
 
 
-  <manifest>
-  <item href="untitled-728e897a-3bfd-4aaa-a413-ad1636896b5a.html" id="untitled-728e897a-3bfd-4aaa-a413-ad1636896b5a.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="bankers-algorithm-b9696233-497c-4364-a5f3-5adba4416a61.html" id="bankers-algorithm-b9696233-497c-4364-a5f3-5adba4416a61.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/d340b876b443081d6ef36849ffe9c00fc1540455.jpg" id="../resources/d340b876b443081d6ef36849ffe9c00fc1540455.jpg" media-type="image/jpeg" properties="mathml scripted"/><item href="../resources/85a39a0d2c28528fedfabf2451fad4ab03d8d6ef.jpg" id="../resources/85a39a0d2c28528fedfabf2451fad4ab03d8d6ef.jpg" media-type="image/jpeg" properties="mathml scripted"/><item href="../resources/384ea319af000e8f4ecd753782ef63676b7936eb.jpg" id="../resources/384ea319af000e8f4ecd753782ef63676b7936eb.jpg" media-type="image/jpeg" properties="mathml scripted"/><item href="../resources/b2da8c34865c5435f4d3336468ba9e29416fd016.jpg" id="../resources/b2da8c34865c5435f4d3336468ba9e29416fd016.jpg" media-type="image/jpeg" properties="mathml scripted"/><item href="../resources/8ec4eee51c529eb6eb34c1bcb10858ae8795179d.jpg" id="../resources/8ec4eee51c529eb6eb34c1bcb10858ae8795179d.jpg" media-type="image/jpeg" properties="mathml scripted"/><item href="../resources/f2275e355904df216410d0673ab4105e2ab3b962.jpg" id="../resources/f2275e355904df216410d0673ab4105e2ab3b962.jpg" media-type="image/jpeg" properties="mathml scripted"/><item href="floyd-warshall-algorithm-80307706-dfa8-4d43-9cf1-425855c0ad49.html" id="floyd-warshall-algorithm-80307706-dfa8-4d43-9cf1-425855c0ad49.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="floyd-warshall-algorithm-13785675-4242-4108-9cdf-2cccd5619969.html" id="floyd-warshall-algorithm-13785675-4242-4108-9cdf-2cccd5619969.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/a9dd29f09dd2178ff2415705a196bacd0482ba65.jpg" id="../resources/a9dd29f09dd2178ff2415705a196bacd0482ba65.jpg" media-type="image/jpeg" properties="mathml scripted"/><item href="../resources/895799cbc8543c8884afee1181f18e242e952368.jpg" id="../resources/895799cbc8543c8884afee1181f18e242e952368.jpg" media-type="image/jpeg" properties="mathml scripted"/><item href="../resources/5c2303c70f3dc0466a0e50f13747fdc41feee5e2.jpg" id="../resources/5c2303c70f3dc0466a0e50f13747fdc41feee5e2.jpg" media-type="image/jpeg" properties="mathml scripted"/>
-  </manifest>
+
+
+
 
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="bankers-algorithm-b9696233-497c-4364-a5f3-5adba4416a61.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="floyd-warshall-algorithm-13785675-4242-4108-9cdf-2cccd5619969.html"></itemref></spine>
@@ -220,8 +315,6 @@
 
 
 
-  <manifest>
-  <item href="untitled-cdbc4420-df42-4cad-a872-aea9a2f0dfea.html" id="untitled-cdbc4420-df42-4cad-a872-aea9a2f0dfea.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="huffman-lcs-prims-595291d2-32b0-44fe-a19f-ad204a3a2743.html" id="huffman-lcs-prims-595291d2-32b0-44fe-a19f-ad204a3a2743.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/3f789c0282f926994c27478a49582cebabadc202.png" id="../resources/3f789c0282f926994c27478a49582cebabadc202.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/1e22c7708e2f1442984e1e3179a4d3065dd41766.png" id="../resources/1e22c7708e2f1442984e1e3179a4d3065dd41766.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/84b01c0123a6e5c8092271ea9df63cb7fff4cd8c.png" id="../resources/84b01c0123a6e5c8092271ea9df63cb7fff4cd8c.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/4d0bfdb1582228fcb2d1c8c7f0e269e146350ae9.png" id="../resources/4d0bfdb1582228fcb2d1c8c7f0e269e146350ae9.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/3bb99503342f69566b817ba28b29037f5d7c768f.png" id="../resources/3bb99503342f69566b817ba28b29037f5d7c768f.png" media-type="image/png" properties="mathml scripted"/><item href="../resources/0aee2692788ecad1649011c9f5366438d64680d6.png" id="../resources/0aee2692788ecad1649011c9f5366438d64680d6.png" media-type="image/png" properties="mathml scripted"/></manifest>
 
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="huffman-lcs-prims-595291d2-32b0-44fe-a19f-ad204a3a2743.html"></itemref></spine>
@@ -229,23 +322,22 @@
 
 
 
-  <manifest><item href="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" id="../resources/8da904c831afecae8e6ad6d84bf834aa4f586f73.png" media-type="image/png" properties="mathml scripted"/><item href="round-robin-and-k-means-d068a511-603a-4498-a974-629d6706d219.html" id="round-robin-and-k-means-d068a511-603a-4498-a974-629d6706d219.html" media-type="application/xhtml+xml" properties="mathml scripted"/></manifest>
+
+
+
+
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="round-robin-and-k-means-d068a511-603a-4498-a974-629d6706d219.html"></itemref></spine>
 
 
 
-  <manifest>
-  <item href="knuth-morris-pratt-algorithm-edcfe139-9410-4b35-ba55-9aa2825d3436.html" id="knuth-morris-pratt-algorithm-edcfe139-9410-4b35-ba55-9aa2825d3436.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="knuth-morris-pratt-algorithm-2c240b77-9bb6-413d-8f67-093f62bbbf22.html" id="knuth-morris-pratt-algorithm-2c240b77-9bb6-413d-8f67-093f62bbbf22.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="knuth-morris-pratt-algorithm-e791b975-3684-4d0c-91f3-20145a0a9583.html" id="knuth-morris-pratt-algorithm-e791b975-3684-4d0c-91f3-20145a0a9583.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="iipublic-key-cryptography-a9a965b8-e88d-4ef5-b743-49519ff8563d.html" id="iipublic-key-cryptography-a9a965b8-e88d-4ef5-b743-49519ff8563d.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="public-key-cryptography-d2869ae5-e8fc-4775-9f33-6e508fa53057.html" id="public-key-cryptography-d2869ae5-e8fc-4775-9f33-6e508fa53057.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="public-key-cryptography-38dbba14-7372-47c8-876d-dac5cea7b5f9.html" id="public-key-cryptography-38dbba14-7372-47c8-876d-dac5cea7b5f9.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/a057053597823fa4a8ee7e4bdb9a7d6970648eaa.png" id="../resources/a057053597823fa4a8ee7e4bdb9a7d6970648eaa.png" media-type="image/png" properties="mathml scripted"/><item href="public-key-cryptography-1d79c101-bdc2-4ada-8e6d-7d8d9c9e77e3.html" id="public-key-cryptography-1d79c101-bdc2-4ada-8e6d-7d8d9c9e77e3.html" media-type="application/xhtml+xml" properties="mathml scripted"/></manifest>
 
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="knuth-morris-pratt-algorithm-e791b975-3684-4d0c-91f3-20145a0a9583.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="public-key-cryptography-38dbba14-7372-47c8-876d-dac5cea7b5f9.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="public-key-cryptography-1d79c101-bdc2-4ada-8e6d-7d8d9c9e77e3.html"></itemref></spine>
 
 
 
-  <manifest>
-  <item href="lru-and-merge-sort-4e5318d1-bfef-4a21-846d-777f031d9cb5.html" id="lru-and-merge-sort-4e5318d1-bfef-4a21-846d-777f031d9cb5.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/b00608899759f15cb1ec439bbfc684cad711ef86.png" id="../resources/b00608899759f15cb1ec439bbfc684cad711ef86.png" media-type="image/png" properties="mathml scripted"/>
-  </manifest>
+  
 
 
 
@@ -253,19 +345,10 @@
 
 
 
-
-  <manifest>
-  <item href="bin-packing-algorithm-0d28741d-69b5-4ef6-88dc-aecc29e92979.html" id="bin-packing-algorithm-0d28741d-69b5-4ef6-88dc-aecc29e92979.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="../resources/f13927ce9788775532a60cdc8ed5516accadfc21.jpg" id="../resources/f13927ce9788775532a60cdc8ed5516accadfc21.jpg" media-type="image/jpeg" properties="mathml scripted"/>
-  </manifest>
-
   
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="bin-packing-algorithm-0d28741d-69b5-4ef6-88dc-aecc29e92979.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref></spine>
 
 
-
-  <manifest>
-  <item href="insertion-sort-and-binary-search-thought-process-3e2c8257-9d88-4975-b37f-82002d2bd61a.html" id="insertion-sort-and-binary-search-thought-process-3e2c8257-9d88-4975-b37f-82002d2bd61a.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
-  </manifest>
 
 
 
@@ -274,19 +357,11 @@
 
 
 
-  <manifest>
-  <item href="untitled-4ae05130-8eed-45ef-99a5-4ba2bc2fca62.html" id="untitled-4ae05130-8eed-45ef-99a5-4ba2bc2fca62.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="hashing-algorithm-60b9a88e-9d9b-4e08-beeb-2a8855e54b50.html" id="hashing-algorithm-60b9a88e-9d9b-4e08-beeb-2a8855e54b50.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="hashing-algorithm-88a0b329-2e09-4982-9aa1-7adca1c58768.html" id="hashing-algorithm-88a0b329-2e09-4982-9aa1-7adca1c58768.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
-  </manifest>
-
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="hashing-algorithm-88a0b329-2e09-4982-9aa1-7adca1c58768.html"></itemref></spine>
 
 
 
-
-  <manifest>
-  <item href="untitled-4ca4a390-41b0-43c6-9556-4b3cbf4816a2.html" id="untitled-4ca4a390-41b0-43c6-9556-4b3cbf4816a2.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="algorithm-for-uuid--57005532-2973-4b33-b7d4-65801143809a.html" id="algorithm-for-uuid--57005532-2973-4b33-b7d4-65801143809a.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
-  </manifest>
 
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="algorithm-for-uuid--57005532-2973-4b33-b7d4-65801143809a.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref></spine>
@@ -295,16 +370,12 @@
 
 
 
-  <manifest>
-  <item href="untitled-b6703320-05d2-4929-a963-613057baf758.html" id="untitled-b6703320-05d2-4929-a963-613057baf758.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="untitled-ea3291b7-5623-4008-877c-cb712dbe6d30.html" id="untitled-ea3291b7-5623-4008-877c-cb712dbe6d30.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="josephus-flavius-problem-ca759a4d-2546-4acd-99c9-c62a742dc063.html" id="josephus-flavius-problem-ca759a4d-2546-4acd-99c9-c62a742dc063.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="josephus-flavius-problem-abddfeb0-5d15-46c9-913b-7ab7c527a575.html" id="josephus-flavius-problem-abddfeb0-5d15-46c9-913b-7ab7c527a575.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
-  </manifest>
+
 
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="josephus-flavius-problem-ca759a4d-2546-4acd-99c9-c62a742dc063.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref></spine>
 
 
-
-  <manifest><item href="untitled-88c94aa3-3af7-4ca0-a245-3a558c3cf387.html" id="untitled-88c94aa3-3af7-4ca0-a245-3a558c3cf387.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="untitled-fa5fc35c-9bc6-4a8b-9ccc-774f2e9c245b.html" id="untitled-fa5fc35c-9bc6-4a8b-9ccc-774f2e9c245b.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="untitled-9c0e109d-7be4-44a2-b3db-97fbfbd265d6.html" id="untitled-9c0e109d-7be4-44a2-b3db-97fbfbd265d6.html" media-type="application/xhtml+xml" properties="mathml scripted"/></manifest>
 
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="untitled-9c0e109d-7be4-44a2-b3db-97fbfbd265d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="untitled-fa5fc35c-9bc6-4a8b-9ccc-774f2e9c245b.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="untitled-88c94aa3-3af7-4ca0-a245-3a558c3cf387.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref></spine>
@@ -312,18 +383,10 @@
 
 
 
-  <manifest>
-  <item href="randomized-quick-sort-ef9b75a8-d4bc-491a-b1be-71d397607b7a.html" id="randomized-quick-sort-ef9b75a8-d4bc-491a-b1be-71d397607b7a.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="randomized-quick-sort-fbf82129-9ade-47c2-b1c7-95f877061b7d.html" id="randomized-quick-sort-fbf82129-9ade-47c2-b1c7-95f877061b7d.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
-  </manifest>
-
-
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="randomized-quick-sort-fbf82129-9ade-47c2-b1c7-95f877061b7d.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref></spine>
 
 
 
-  <manifest>
-  <item href="untitled-2ecda6e6-4786-4f8c-9d11-aafe8e037f6d.html" id="untitled-2ecda6e6-4786-4f8c-9d11-aafe8e037f6d.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="apriori-algorithm-8361992b-45bb-444d-b4e2-e173e6a12266.html" id="apriori-algorithm-8361992b-45bb-444d-b4e2-e173e6a12266.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="untitled-a4d10465-9233-40d0-b81c-81ac35f6e5c0.html" id="untitled-a4d10465-9233-40d0-b81c-81ac35f6e5c0.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
-  </manifest>
 
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="untitled-2ecda6e6-4786-4f8c-9d11-aafe8e037f6d.html"></itemref></spine>
 

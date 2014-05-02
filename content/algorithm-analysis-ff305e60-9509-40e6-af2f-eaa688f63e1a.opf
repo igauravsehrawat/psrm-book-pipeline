@@ -103,6 +103,8 @@
   <item href="randomized-quick-sort-ef9b75a8-d4bc-491a-b1be-71d397607b7a.html" id="randomized-quick-sort-ef9b75a8-d4bc-491a-b1be-71d397607b7a.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="randomized-quick-sort-fbf82129-9ade-47c2-b1c7-95f877061b7d.html" id="randomized-quick-sort-fbf82129-9ade-47c2-b1c7-95f877061b7d.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
 
   <item href="untitled-2ecda6e6-4786-4f8c-9d11-aafe8e037f6d.html" id="untitled-2ecda6e6-4786-4f8c-9d11-aafe8e037f6d.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="apriori-algorithm-8361992b-45bb-444d-b4e2-e173e6a12266.html" id="apriori-algorithm-8361992b-45bb-444d-b4e2-e173e6a12266.html" media-type="application/xhtml+xml" properties="mathml scripted"/><item href="untitled-a4d10465-9233-40d0-b81c-81ac35f6e5c0.html" id="untitled-a4d10465-9233-40d0-b81c-81ac35f6e5c0.html" media-type="application/xhtml+xml" properties="mathml scripted"/>
+
+  </manifest>
   
 
 
@@ -252,7 +254,7 @@
 
 
 
-  <itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="untitled-2ecda6e6-4786-4f8c-9d11-aafe8e037f6d.html"></itemref>
+  <itemref xmlns="http://www.w3.org/1999/xhtml" idref="how-to-guide-aee4b377-5398-4645-99f0-30e291516437.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="euclidean-algorithm-for-gcd-85a27e14-9a3f-4740-a264-33249fa6c926.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="example--dijkstras-algorithm-8687bf5c-66e9-44a2-9647-99acbbcd85d6.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-a36d33a6-441b-4daa-837d-4a8929d6e2fd.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="untitled-2ecda6e6-4786-4f8c-9d11-aafe8e037f6d.html"></itemref> </spine>
 
 
 </package>
